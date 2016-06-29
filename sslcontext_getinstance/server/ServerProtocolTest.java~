@@ -1,0 +1,51 @@
+import javax.net.ssl.SSLSocket;
+import javax.net.ssl.SSLContext;
+import javax.net.SocketFactory;
+import javax.net.ssl.SSLServerSocketFactory;
+import javax.net.ServerSocketFactory;
+import javax.net.ssl.KeyManagerFactory;
+
+import java.net.ServerSocket;
+import java.net.Socket;
+
+import java.security.KeyStore;
+import java.io.*;
+
+public class ServerProtocolTest {
+    
+    public static void main(String[] args) throws Exception {
+        
+        System.setProperty("javax.net.ssl.keyStore", "./keystore");
+        System.setProperty("javax.net.ssl.keyStorePassword", "password");
+        KeyStore tKeyStore = KeyStore.getInstance("JKS");
+        char[] tKeyStorePassword = "password".toCharArray();
+        tKeyStore.load(new FileInputStream("./keystore"), tKeyStorePassword);
+        KeyManagerFactory tKeyManagerFactory = KeyManagerFactory.getInstance("SunX509");
+        tKeyManagerFactory.init(tKeyStore, tKeyStorePassword);
+        //SSLContext tSSLContext = SSLContext.getInstance("TLSv1.2", "SunJSSE");
+        SSLContext tSSLContext = SSLContext.getDefault();
+        //tSSLContext.init(tKeyManagerFactory.getKeyManagers(), null, null);
+        SSLServerSocketFactory tServerSocketFactory = tSSLContext.getServerSocketFactory();
+        ServerSocket tServerSocket = tServerSocketFactory.createServerSocket(8443, 10, java.net.InetAddress.getByName("127.0.0.1"));
+        //Socket tSocket;
+        //while(true){
+        //tSocket = tServerSocket.accept();
+            //}
+        Socket client = tServerSocket.accept();
+        System.out.println( "Clientから接続されました。" );
+    
+        BufferedReader in  = new BufferedReader( 
+                                 new InputStreamReader ( client.getInputStream() ) );
+        BufferedWriter out = new BufferedWriter( 
+                                 new OutputStreamWriter( client.getOutputStream() ) );
+    
+        String msg = in.readLine();
+    
+        System.out.println("★★★Clientからのメッセージ:" + msg );
+        out.write( "Hello Client\n" );  // クライアントに文字列送信
+        out.flush();
+    }
+        
+}
+
+

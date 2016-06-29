@@ -1,0 +1,218 @@
+
+
+[rlwrap] Fri Jun 24 20:45:59 2016
+
+Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+Initializing jdb ...
+> Input stream closed.
+
+
+[rlwrap] Fri Jun 24 20:46:18 2016
+
+Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+Initializing jdb ...
+> stop in org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext) 
+Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+> 
+Breakpoint hit: "thread=http-127.0.0.1:8080-1", org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(), line=18 bci=0
+
+http-127.0.0.1:8080-1[1] where
+  [1] org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke (TestInterceptor.java:18)
+  [2] sun.reflect.NativeMethodAccessorImpl.invoke0 (native method)
+  [3] sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+  [4] sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+  [5] java.lang.reflect.Method.invoke (Method.java:497)
+  [6] org.jboss.as.ejb3.component.ContainerInterceptorMethodInterceptorFactory$ContainerInterceptorMethodInterceptor.processInvocation (ContainerInterceptorMethodInterceptorFactory.java:91)
+  [7] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [8] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)
+  [9] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)
+  [10] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [11] org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation (ShutDownInterceptorFactory.java:64)
+  [12] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [13] org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation (LoggingInterceptor.java:59)
+  [14] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [15] org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation (NamespaceContextInterceptor.java:50)
+  [16] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [17] org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation (AdditionalSetupInterceptor.java:55)
+  [18] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [19] org.jboss.as.ee.component.TCCLInterceptor.processInvocation (TCCLInterceptor.java:45)
+  [20] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [21] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [22] org.jboss.as.ee.component.ViewService$View.invoke (ViewService.java:185)
+  [23] org.jboss.as.ee.component.ViewDescription$1.processInvocation (ViewDescription.java:185)
+  [24] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [25] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [26] org.jboss.as.ee.component.ProxyInvocationHandler.invoke (ProxyInvocationHandler.java:73)
+  [27] org.jboss.as.quickstarts.ejb_security.SecuredEJB$$$view3.getSecurityInfo (null)
+  [28] org.jboss.as.quickstarts.ejb_security.SecuredEJBServlet.doGet (SecuredEJBServlet.java:63)
+  [29] javax.servlet.http.HttpServlet.service (HttpServlet.java:734)
+  [30] javax.servlet.http.HttpServlet.service (HttpServlet.java:847)
+  [31] org.apache.catalina.core.ApplicationFilterChain.internalDoFilter (ApplicationFilterChain.java:295)
+  [32] org.apache.catalina.core.ApplicationFilterChain.doFilter (ApplicationFilterChain.java:214)
+  [33] org.apache.catalina.core.StandardWrapperValve.invoke (StandardWrapperValve.java:231)
+  [34] org.apache.catalina.core.StandardContextValve.invoke (StandardContextValve.java:149)
+  [35] org.apache.catalina.authenticator.AuthenticatorBase.invoke (AuthenticatorBase.java:512)
+  [36] org.jboss.as.web.security.SecurityContextAssociationValve.invoke (SecurityContextAssociationValve.java:169)
+  [37] org.apache.catalina.core.StandardHostValve.invoke (StandardHostValve.java:150)
+  [38] org.apache.catalina.valves.ErrorReportValve.invoke (ErrorReportValve.java:97)
+  [39] org.apache.catalina.core.StandardEngineValve.invoke (StandardEngineValve.java:102)
+  [40] org.apache.catalina.connector.CoyoteAdapter.service (CoyoteAdapter.java:344)
+  [41] org.apache.coyote.http11.Http11Processor.process (Http11Processor.java:854)
+  [42] org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process (Http11Protocol.java:654)
+  [43] org.apache.tomcat.util.net.JIoEndpoint$Worker.run (JIoEndpoint.java:926)
+  [44] java.lang.Thread.run (Thread.java:745)
+http-127.0.0.1:8080-1[1] cont
+> Input stream closed.
+
+
+[rlwrap] Fri Jun 24 21:01:59 2016
+
+Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+Initializing jdb ...
+> stop in org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String) 
+Set breakpoint org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String)
+> 
+Breakpoint hit: "thread=http-127.0.0.1:8080-1", org.jboss.samples.webservices.HelloWorld.sayHello(), line=11 bci=0
+
+http-127.0.0.1:8080-1[1] where
+  [1] org.jboss.samples.webservices.HelloWorld.sayHello (HelloWorld.java:11)
+  [2] sun.reflect.NativeMethodAccessorImpl.invoke0 (native method)
+  [3] sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+  [4] sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+  [5] java.lang.reflect.Method.invoke (Method.java:497)
+  [6] org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation (ManagedReferenceMethodInterceptor.java:52)
+  [7] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [8] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)
+  [9] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)
+  [10] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [11] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)
+  [12] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)
+  [13] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [14] org.jboss.invocation.InitialInterceptor.processInvocation (InitialInterceptor.java:21)
+  [15] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [16] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [17] org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation (ComponentDispatcherInterceptor.java:53)
+  [18] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [19] org.jboss.as.webservices.deployers.WSComponentInstanceAssociationInterceptor.processInvocation (WSComponentInstanceAssociationInterceptor.java:49)
+  [20] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [21] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [22] org.jboss.as.ee.component.ViewService$View.invoke (ViewService.java:185)
+  [23] org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke (AbstractInvocationHandler.java:129)
+  [24] org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation (JBossWSInvoker.java:177)
+  [25] org.apache.cxf.service.invoker.AbstractInvoker.invoke (AbstractInvoker.java:104)
+  [26] org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke (AbstractJAXWSMethodInvoker.java:237)
+  [27] org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke (JAXWSMethodInvoker.java:69)
+  [28] org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke (JBossWSInvoker.java:146)
+  [29] org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run (ServiceInvokerInterceptor.java:58)
+  [30] java.util.concurrent.Executors$RunnableAdapter.call (Executors.java:511)
+  [31] java.util.concurrent.FutureTask.run (FutureTask.java:266)
+  [32] org.apache.cxf.workqueue.SynchronousExecutor.execute (SynchronousExecutor.java:37)
+  [33] org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage (ServiceInvokerInterceptor.java:107)
+  [34] org.apache.cxf.phase.PhaseInterceptorChain.doIntercept (PhaseInterceptorChain.java:272)
+  [35] org.apache.cxf.transport.ChainInitiationObserver.onMessage (ChainInitiationObserver.java:121)
+  [36] org.apache.cxf.transport.http.AbstractHTTPDestination.invoke (AbstractHTTPDestination.java:249)
+  [37] org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest (RequestHandlerImpl.java:97)
+  [38] org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler (ServletHelper.java:131)
+  [39] org.jboss.wsf.stack.cxf.CXFServletExt.invoke (CXFServletExt.java:88)
+  [40] org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest (AbstractHTTPServlet.java:289)
+  [41] org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost (AbstractHTTPServlet.java:209)
+  [42] javax.servlet.http.HttpServlet.service (HttpServlet.java:754)
+  [43] org.jboss.wsf.stack.cxf.CXFServletExt.service (CXFServletExt.java:136)
+  [44] org.jboss.wsf.spi.deployment.WSFServlet.service (WSFServlet.java:140)
+  [45] javax.servlet.http.HttpServlet.service (HttpServlet.java:847)
+  [46] org.apache.catalina.core.ApplicationFilterChain.internalDoFilter (ApplicationFilterChain.java:295)
+  [47] org.apache.catalina.core.ApplicationFilterChain.doFilter (ApplicationFilterChain.java:214)
+  [48] org.apache.catalina.core.StandardWrapperValve.invoke (StandardWrapperValve.java:231)
+  [49] org.apache.catalina.core.StandardContextValve.invoke (StandardContextValve.java:149)
+  [50] org.jboss.as.web.security.SecurityContextAssociationValve.invoke (SecurityContextAssociationValve.java:169)
+  [51] org.apache.catalina.core.StandardHostValve.invoke (StandardHostValve.java:150)
+  [52] org.apache.catalina.valves.ErrorReportValve.invoke (ErrorReportValve.java:97)
+  [53] org.apache.catalina.core.StandardEngineValve.invoke (StandardEngineValve.java:102)
+  [54] org.apache.catalina.connector.CoyoteAdapter.service (CoyoteAdapter.java:344)
+  [55] org.apache.coyote.http11.Http11Processor.process (Http11Processor.java:854)
+  [56] org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process (Http11Protocol.java:654)
+  [57] org.apache.tomcat.util.net.JIoEndpoint$Worker.run (JIoEndpoint.java:926)
+  [58] java.lang.Thread.run (Thread.java:745)
+http-127.0.0.1:8080-1[1] cont
+> 
+Breakpoint hit: "thread=http-127.0.0.1:8080-2", org.jboss.samples.webservices.HelloWorld.sayHello(), line=11 bci=0
+
+http-127.0.0.1:8080-2[1] cont
+> Input stream closed.
+
+
+[rlwrap] Fri Jun 24 21:44:09 2016
+
+Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+Initializing jdb ...
+> stop in org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String) 
+Set breakpoint org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String)
+> 
+Breakpoint hit: "thread=http-127.0.0.1:8080-2", org.jboss.samples.webservices.HelloWorld.sayHello(), line=15 bci=0
+
+http-127.0.0.1:8080-2[1] where
+  [1] org.jboss.samples.webservices.HelloWorld.sayHello (HelloWorld.java:15)
+  [2] sun.reflect.NativeMethodAccessorImpl.invoke0 (native method)
+  [3] sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+  [4] sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+  [5] java.lang.reflect.Method.invoke (Method.java:497)
+  [6] org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation (ManagedReferenceMethodInterceptor.java:52)
+  [7] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [8] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)
+  [9] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)
+  [10] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [11] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)
+  [12] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)
+  [13] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [14] org.jboss.invocation.InitialInterceptor.processInvocation (InitialInterceptor.java:21)
+  [15] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [16] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [17] org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation (ComponentDispatcherInterceptor.java:53)
+  [18] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [19] org.jboss.as.webservices.deployers.WSComponentInstanceAssociationInterceptor.processInvocation (WSComponentInstanceAssociationInterceptor.java:49)
+  [20] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [21] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [22] org.jboss.as.ee.component.ViewService$View.invoke (ViewService.java:185)
+  [23] org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke (AbstractInvocationHandler.java:129)
+  [24] org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation (JBossWSInvoker.java:177)
+  [25] org.apache.cxf.service.invoker.AbstractInvoker.invoke (AbstractInvoker.java:104)
+  [26] org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke (AbstractJAXWSMethodInvoker.java:237)
+  [27] org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke (JAXWSMethodInvoker.java:69)
+  [28] org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke (JBossWSInvoker.java:146)
+  [29] org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run (ServiceInvokerInterceptor.java:58)
+  [30] java.util.concurrent.Executors$RunnableAdapter.call (Executors.java:511)
+  [31] java.util.concurrent.FutureTask.run (FutureTask.java:266)
+  [32] org.apache.cxf.workqueue.SynchronousExecutor.execute (SynchronousExecutor.java:37)
+  [33] org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage (ServiceInvokerInterceptor.java:107)
+  [34] org.apache.cxf.phase.PhaseInterceptorChain.doIntercept (PhaseInterceptorChain.java:272)
+  [35] org.apache.cxf.transport.ChainInitiationObserver.onMessage (ChainInitiationObserver.java:121)
+  [36] org.apache.cxf.transport.http.AbstractHTTPDestination.invoke (AbstractHTTPDestination.java:249)
+  [37] org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest (RequestHandlerImpl.java:97)
+  [38] org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler (ServletHelper.java:131)
+  [39] org.jboss.wsf.stack.cxf.CXFServletExt.invoke (CXFServletExt.java:88)
+  [40] org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest (AbstractHTTPServlet.java:289)
+  [41] org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost (AbstractHTTPServlet.java:209)
+  [42] javax.servlet.http.HttpServlet.service (HttpServlet.java:754)
+  [43] org.jboss.wsf.stack.cxf.CXFServletExt.service (CXFServletExt.java:136)
+  [44] org.jboss.wsf.spi.deployment.WSFServlet.service (WSFServlet.java:140)
+  [45] javax.servlet.http.HttpServlet.service (HttpServlet.java:847)
+  [46] org.apache.catalina.core.ApplicationFilterChain.internalDoFilter (ApplicationFilterChain.java:295)
+  [47] org.apache.catalina.core.ApplicationFilterChain.doFilter (ApplicationFilterChain.java:214)
+  [48] org.apache.catalina.core.StandardWrapperValve.invoke (StandardWrapperValve.java:231)
+  [49] org.apache.catalina.core.StandardContextValve.invoke (StandardContextValve.java:149)
+  [50] org.apache.catalina.authenticator.AuthenticatorBase.invoke (AuthenticatorBase.java:512)
+  [51] org.jboss.as.web.security.SecurityContextAssociationValve.invoke (SecurityContextAssociationValve.java:169)
+  [52] org.apache.catalina.core.StandardHostValve.invoke (StandardHostValve.java:150)
+  [53] org.apache.catalina.valves.ErrorReportValve.invoke (ErrorReportValve.java:97)
+  [54] org.apache.catalina.core.StandardEngineValve.invoke (StandardEngineValve.java:102)
+  [55] org.apache.catalina.connector.CoyoteAdapter.service (CoyoteAdapter.java:344)
+  [56] org.apache.coyote.http11.Http11Processor.process (Http11Processor.java:854)
+  [57] org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process (Http11Protocol.java:654)
+  [58] org.apache.tomcat.util.net.JIoEndpoint$Worker.run (JIoEndpoint.java:926)
+  [59] java.lang.Thread.run (Thread.java:745)
+http-127.0.0.1:8080-2[1] cont
+> Input stream closed.

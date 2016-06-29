@@ -1,0 +1,1696 @@
+2016/06/24 20:45:59 rljdb gets started
+
+2016/06/24 20:45:59 logit: OUTPUT     ''
+2016/06/24 20:45:59 EnhancedClearCommandExecutor.handle_output: output = 
+2016/06/24 20:45:59 logit: PROMPT     ''
+2016/06/24 20:45:59 logit: OUTPUT     'Set uncaught java.lang.Throwable'
+2016/06/24 20:45:59 EnhancedClearCommandExecutor.handle_output: output = Set uncaught java.lang.Throwable
+2016/06/24 20:45:59 logit: OUTPUT     '\r\nSet deferred uncaught java.lang.Throwable\r\n'
+2016/06/24 20:45:59 EnhancedClearCommandExecutor.handle_output: output = 
+Set deferred uncaught java.lang.Throwable
+
+2016/06/24 20:45:59 logit: OUTPUT     'Initializing jdb ...\r\n'
+2016/06/24 20:45:59 EnhancedClearCommandExecutor.handle_output: output = Initializing jdb ...
+
+2016/06/24 20:45:59 logit: OUTPUT     '> '
+2016/06/24 20:45:59 EnhancedClearCommandExecutor.handle_output: output = > 
+2016/06/24 20:45:59 logit: PROMPT     '> '
+2016/06/24 20:45:59 Could not open ./rljdb.breakpoint
+2016/06/24 20:45:59 Could not open ./rljdb.sourcepath
+2016/06/24 20:45:59 prompt_handler: prompt=|> |
+2016/06/24 20:45:59 EnhancedClearCommandExecutor.handle_prompt: output = Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+Initializing jdb ...
+
+2016/06/24 20:45:59 ViewFileCommandExecutor.handle_prompt: output = Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+Initializing jdb ...
+
+2016/06/24 20:45:59 ConditionalBreakpointExecutor.get_breakpoint_location_at_line: output = Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+Initializing jdb ...
+
+2016/06/24 20:46:10 logit: OUTPUT     'Input stream closed.\r\n'
+2016/06/24 20:46:10 EnhancedClearCommandExecutor.handle_output: output = Input stream closed.
+
+2016/06/24 20:46:10 logit: PROMPT     ''
+2016/06/24 20:46:18 rljdb gets started
+
+2016/06/24 20:46:18 logit: OUTPUT     ''
+2016/06/24 20:46:18 EnhancedClearCommandExecutor.handle_output: output = 
+2016/06/24 20:46:18 logit: PROMPT     ''
+2016/06/24 20:46:19 logit: OUTPUT     'Set uncaught java.lang.Throwable'
+2016/06/24 20:46:19 EnhancedClearCommandExecutor.handle_output: output = Set uncaught java.lang.Throwable
+2016/06/24 20:46:19 logit: OUTPUT     '\r\n'
+2016/06/24 20:46:19 EnhancedClearCommandExecutor.handle_output: output = 
+
+2016/06/24 20:46:19 logit: OUTPUT     'Set deferred uncaught java.lang.Throwable\r\nInitializing jdb ...\r\n'
+2016/06/24 20:46:19 EnhancedClearCommandExecutor.handle_output: output = Set deferred uncaught java.lang.Throwable
+Initializing jdb ...
+
+2016/06/24 20:46:19 logit: OUTPUT     '> '
+2016/06/24 20:46:19 EnhancedClearCommandExecutor.handle_output: output = > 
+2016/06/24 20:46:19 logit: PROMPT     '> '
+2016/06/24 20:46:19 Could not open ./rljdb.breakpoint
+2016/06/24 20:46:19 Could not open ./rljdb.sourcepath
+2016/06/24 20:46:19 prompt_handler: prompt=|> |
+2016/06/24 20:46:19 EnhancedClearCommandExecutor.handle_prompt: output = Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+Initializing jdb ...
+
+2016/06/24 20:46:19 ViewFileCommandExecutor.handle_prompt: output = Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+Initializing jdb ...
+
+2016/06/24 20:46:19 ConditionalBreakpointExecutor.get_breakpoint_location_at_line: output = Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+Initializing jdb ...
+
+2016/06/24 20:46:37 logit: COMPLETION 'stop in org.jboss.as.quickstarts.ejb_security.TestInterceptor.\t\t'
+2016/06/24 20:46:37 BreakPointerManager.extract_breakpoint: line=> 
+2016/06/24 20:46:37 BreakPointerManager.extract_breakpoint: m.group(1)=None
+2016/06/24 20:46:37 BreakPointerManager.parse_clear: vars=
+2016/06/24 20:46:37 BreakPointerManager.deactivate: bread points=[]
+2016/06/24 20:46:37 CompletionRequest.__init__: line=stop in org.jboss.as.quickstarts.ejb_security.TestInterceptor.
+2016/06/24 20:46:37 CompletionRequest.__init__: prefix=
+2016/06/24 20:46:37 CompletionRequest.__init__: completions=[]
+2016/06/24 20:46:37 get_tokes: ["stop", "in", "org.jboss.as.quickstarts.ejb_security.TestInterceptor."]
+2016/06/24 20:46:37 CompletionRequest.__init__: tokens=[stop, in, org.jboss.as.quickstarts.ejb_security.TestInterceptor.]
+2016/06/24 20:46:37 CompletionRequest.__init__: len(tokens)=3
+2016/06/24 20:46:37 ClassMemberCompletionExecutor.handle_completion: request.completions=[
+2016/06/24 20:46:37 ClassMemberCompletionExecutor.parse_last_token: | org.jboss.as.quickstarts.ejb_security.TestInterceptor |
+2016/06/24 20:46:37 ClassMemberCompetionExecutor.do_complition: base_name=org.jboss.as.quickstarts.ejb_security.TestInterceptor tail= paren=
+2016/06/24 20:46:38 is_class_name: output=Class: org.jboss.as.quickstarts.ejb_security.TestInterceptor
+extends: java.lang.Object
+subclass: org.jboss.as.quickstarts.ejb_security.TestInterceptor$Proxy$_$$_WeldSubclass
+nested: org.jboss.as.quickstarts.ejb_security.TestInterceptor$Proxy$_$$_WeldSubclass
+> 
+2016/06/24 20:46:38 ClassMemberCompetionExecutor.do_complition: class_name=org.jboss.as.quickstarts.ejb_security.TestInterceptor
+2016/06/24 20:46:38 ClassMemberCompletionExecutor.complete_fields: tail=
+2016/06/24 20:46:38 ClassMemberCompletionExecutor.complete_fields: output=** fields list **
+> 
+2016/06/24 20:46:38 ClassMemberCompletionExecutor.parse_fields: lines = > 
+2016/06/24 20:46:38 ClassMemberCompletionExecutor.complete_fields: fields=[
+2016/06/24 20:46:38 ClassMemberCompletionExecutor.handle_completion: fields=[
+2016/06/24 20:46:38 ClassMemberCompletionExecutor.complete_methods: tail=
+2016/06/24 20:46:38 ClassMemberCompletionExecutor.complete_methods: output=** methods list **
+org.jboss.as.quickstarts.ejb_security.TestInterceptor <init>()
+org.jboss.as.quickstarts.ejb_security.TestInterceptor aroundInvoke(javax.interceptor.InvocationContext)
+java.lang.Object <init>()
+java.lang.Object registerNatives()
+java.lang.Object getClass()
+java.lang.Object hashCode()
+java.lang.Object equals(java.lang.Object)
+java.lang.Object clone()
+java.lang.Object toString()
+java.lang.Object notify()
+java.lang.Object notifyAll()
+java.lang.Object wait(long)
+java.lang.Object wait(long, int)
+java.lang.Object wait()
+java.lang.Object finalize()
+java.lang.Object <clinit>()
+> 
+2016/06/24 20:46:38 ClassMemberCompletionExecutor.parse_methods: lines = org.jboss.as.quickstarts.ejb_security.TestInterceptor <init>(),org.jboss.as.quickstarts.ejb_security.TestInterceptor aroundInvoke(javax.interceptor.InvocationContext),java.lang.Object <init>(),java.lang.Object registerNatives(),java.lang.Object getClass(),java.lang.Object hashCode(),java.lang.Object equals(java.lang.Object),java.lang.Object clone(),java.lang.Object toString(),java.lang.Object notify(),java.lang.Object notifyAll(),java.lang.Object wait(long),java.lang.Object wait(long, int),java.lang.Object wait(),java.lang.Object finalize(),java.lang.Object <clinit>(),> 
+2016/06/24 20:46:38 ClassMemberCompletionExecutor.complete_methods: methods=[<init>(),aroundInvoke(javax.interceptor.InvocationContext),<init>(),registerNatives(),getClass(),hashCode(),equals(java.lang.Object),clone(),toString(),notify(),notifyAll(),wait(long),wait(long,,wait(),finalize(),<clinit>()
+2016/06/24 20:46:38 ClassMemberCompletionExecutor.handle_completion: len(request.completions)=17
+2016/06/24 20:46:38 logit: COMPLETION 'stop in org.jboss.as.quickstarts.ejb_security.TestInterceptor.\t\t'
+2016/06/24 20:46:38 BreakPointerManager.extract_breakpoint: line=> 
+2016/06/24 20:46:38 BreakPointerManager.extract_breakpoint: m.group(1)=None
+2016/06/24 20:46:38 BreakPointerManager.parse_clear: vars=
+2016/06/24 20:46:38 BreakPointerManager.deactivate: bread points=[]
+2016/06/24 20:46:38 CompletionRequest.__init__: line=stop in org.jboss.as.quickstarts.ejb_security.TestInterceptor.
+2016/06/24 20:46:38 CompletionRequest.__init__: prefix=
+2016/06/24 20:46:38 CompletionRequest.__init__: completions=[]
+2016/06/24 20:46:38 get_tokes: ["stop", "in", "org.jboss.as.quickstarts.ejb_security.TestInterceptor."]
+2016/06/24 20:46:38 CompletionRequest.__init__: tokens=[stop, in, org.jboss.as.quickstarts.ejb_security.TestInterceptor.]
+2016/06/24 20:46:38 CompletionRequest.__init__: len(tokens)=3
+2016/06/24 20:46:38 ClassMemberCompletionExecutor.handle_completion: request.completions=[
+2016/06/24 20:46:38 ClassMemberCompletionExecutor.parse_last_token: | org.jboss.as.quickstarts.ejb_security.TestInterceptor |
+2016/06/24 20:46:38 ClassMemberCompetionExecutor.do_complition: base_name=org.jboss.as.quickstarts.ejb_security.TestInterceptor tail= paren=
+2016/06/24 20:46:38 is_class_name: output=Class: org.jboss.as.quickstarts.ejb_security.TestInterceptor
+extends: java.lang.Object
+subclass: org.jboss.as.quickstarts.ejb_security.TestInterceptor$Proxy$_$$_WeldSubclass
+nested: org.jboss.as.quickstarts.ejb_security.TestInterceptor$Proxy$_$$_WeldSubclass
+> 
+2016/06/24 20:46:38 ClassMemberCompetionExecutor.do_complition: class_name=org.jboss.as.quickstarts.ejb_security.TestInterceptor
+2016/06/24 20:46:38 ClassMemberCompletionExecutor.complete_fields: tail=
+2016/06/24 20:46:38 ClassMemberCompletionExecutor.complete_fields: output=** fields list **
+> 
+2016/06/24 20:46:38 ClassMemberCompletionExecutor.parse_fields: lines = > 
+2016/06/24 20:46:38 ClassMemberCompletionExecutor.complete_fields: fields=[
+2016/06/24 20:46:38 ClassMemberCompletionExecutor.handle_completion: fields=[
+2016/06/24 20:46:38 ClassMemberCompletionExecutor.complete_methods: tail=
+2016/06/24 20:46:38 ClassMemberCompletionExecutor.complete_methods: output=** methods list **
+org.jboss.as.quickstarts.ejb_security.TestInterceptor <init>()
+org.jboss.as.quickstarts.ejb_security.TestInterceptor aroundInvoke(javax.interceptor.InvocationContext)
+java.lang.Object <init>()
+java.lang.Object registerNatives()
+java.lang.Object getClass()
+java.lang.Object hashCode()
+java.lang.Object equals(java.lang.Object)
+java.lang.Object clone()
+java.lang.Object toString()
+java.lang.Object notify()
+java.lang.Object notifyAll()
+java.lang.Object wait(long)
+java.lang.Object wait(long, int)
+java.lang.Object wait()
+java.lang.Object finalize()
+java.lang.Object <clinit>()
+> 
+2016/06/24 20:46:38 ClassMemberCompletionExecutor.parse_methods: lines = org.jboss.as.quickstarts.ejb_security.TestInterceptor <init>(),org.jboss.as.quickstarts.ejb_security.TestInterceptor aroundInvoke(javax.interceptor.InvocationContext),java.lang.Object <init>(),java.lang.Object registerNatives(),java.lang.Object getClass(),java.lang.Object hashCode(),java.lang.Object equals(java.lang.Object),java.lang.Object clone(),java.lang.Object toString(),java.lang.Object notify(),java.lang.Object notifyAll(),java.lang.Object wait(long),java.lang.Object wait(long, int),java.lang.Object wait(),java.lang.Object finalize(),java.lang.Object <clinit>(),> 
+2016/06/24 20:46:38 ClassMemberCompletionExecutor.complete_methods: methods=[<init>(),aroundInvoke(javax.interceptor.InvocationContext),<init>(),registerNatives(),getClass(),hashCode(),equals(java.lang.Object),clone(),toString(),notify(),notifyAll(),wait(long),wait(long,,wait(),finalize(),<clinit>()
+2016/06/24 20:46:38 ClassMemberCompletionExecutor.handle_completion: len(request.completions)=17
+2016/06/24 20:46:42 logit: COMPLETION 'stop in org.jboss.as.quickstarts.ejb_security.TestInterceptor.a\ta\t'
+2016/06/24 20:46:42 BreakPointerManager.extract_breakpoint: line=> 
+2016/06/24 20:46:42 BreakPointerManager.extract_breakpoint: m.group(1)=None
+2016/06/24 20:46:42 BreakPointerManager.parse_clear: vars=
+2016/06/24 20:46:42 BreakPointerManager.deactivate: bread points=[]
+2016/06/24 20:46:42 CompletionRequest.__init__: line=stop in org.jboss.as.quickstarts.ejb_security.TestInterceptor.a
+2016/06/24 20:46:42 CompletionRequest.__init__: prefix=a
+2016/06/24 20:46:42 CompletionRequest.__init__: completions=[]
+2016/06/24 20:46:42 get_tokes: ["stop", "in", "org.jboss.as.quickstarts.ejb_security.TestInterceptor.a"]
+2016/06/24 20:46:42 CompletionRequest.__init__: tokens=[stop, in, org.jboss.as.quickstarts.ejb_security.TestInterceptor.a]
+2016/06/24 20:46:42 CompletionRequest.__init__: len(tokens)=3
+2016/06/24 20:46:42 ClassMemberCompletionExecutor.handle_completion: request.completions=[
+2016/06/24 20:46:42 ClassMemberCompletionExecutor.parse_last_token: | org.jboss.as.quickstarts.ejb_security.TestInterceptor | a |
+2016/06/24 20:46:42 ClassMemberCompetionExecutor.do_complition: base_name=org.jboss.as.quickstarts.ejb_security.TestInterceptor tail=a paren=
+2016/06/24 20:46:42 is_class_name: output=Class: org.jboss.as.quickstarts.ejb_security.TestInterceptor
+extends: java.lang.Object
+subclass: org.jboss.as.quickstarts.ejb_security.TestInterceptor$Proxy$_$$_WeldSubclass
+nested: org.jboss.as.quickstarts.ejb_security.TestInterceptor$Proxy$_$$_WeldSubclass
+> 
+2016/06/24 20:46:42 ClassMemberCompetionExecutor.do_complition: class_name=org.jboss.as.quickstarts.ejb_security.TestInterceptor
+2016/06/24 20:46:42 ClassMemberCompletionExecutor.complete_fields: tail=a
+2016/06/24 20:46:42 ClassMemberCompletionExecutor.complete_fields: output=** fields list **
+> 
+2016/06/24 20:46:42 ClassMemberCompletionExecutor.parse_fields: lines = > 
+2016/06/24 20:46:42 ClassMemberCompletionExecutor.complete_fields: fields=[
+2016/06/24 20:46:42 ClassMemberCompletionExecutor.handle_completion: fields=[
+2016/06/24 20:46:42 ClassMemberCompletionExecutor.complete_methods: tail=a
+2016/06/24 20:46:42 ClassMemberCompletionExecutor.complete_methods: output=** methods list **
+org.jboss.as.quickstarts.ejb_security.TestInterceptor <init>()
+org.jboss.as.quickstarts.ejb_security.TestInterceptor aroundInvoke(javax.interceptor.InvocationContext)
+java.lang.Object <init>()
+java.lang.Object registerNatives()
+java.lang.Object getClass()
+java.lang.Object hashCode()
+java.lang.Object equals(java.lang.Object)
+java.lang.Object clone()
+java.lang.Object toString()
+java.lang.Object notify()
+java.lang.Object notifyAll()
+java.lang.Object wait(long)
+java.lang.Object wait(long, int)
+java.lang.Object wait()
+java.lang.Object finalize()
+java.lang.Object <clinit>()
+> 
+2016/06/24 20:46:42 ClassMemberCompletionExecutor.parse_methods: lines = org.jboss.as.quickstarts.ejb_security.TestInterceptor <init>(),org.jboss.as.quickstarts.ejb_security.TestInterceptor aroundInvoke(javax.interceptor.InvocationContext),java.lang.Object <init>(),java.lang.Object registerNatives(),java.lang.Object getClass(),java.lang.Object hashCode(),java.lang.Object equals(java.lang.Object),java.lang.Object clone(),java.lang.Object toString(),java.lang.Object notify(),java.lang.Object notifyAll(),java.lang.Object wait(long),java.lang.Object wait(long, int),java.lang.Object wait(),java.lang.Object finalize(),java.lang.Object <clinit>(),> 
+2016/06/24 20:46:42 ClassMemberCompletionExecutor.complete_methods: methods=[<init>(),aroundInvoke(javax.interceptor.InvocationContext),<init>(),registerNatives(),getClass(),hashCode(),equals(java.lang.Object),clone(),toString(),notify(),notifyAll(),wait(long),wait(long,,wait(),finalize(),<clinit>()
+2016/06/24 20:46:42 ClassMemberCompletionExecutor.handle_completion: len(request.completions)=2
+2016/06/24 20:46:43 logit: HISTORY    'stop in org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext) '
+2016/06/24 20:46:43 logit: INPUT      'stop in org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext) '
+2016/06/24 20:46:43 logit: OUTPUT     'stop in org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext) \r\n'
+2016/06/24 20:46:43 EnhancedClearCommandExecutor.handle_output: output = 
+2016/06/24 20:46:43 logit: PROMPT     ''
+2016/06/24 20:46:43 logit: OUTPUT     'Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)\r\n'
+2016/06/24 20:46:43 EnhancedClearCommandExecutor.handle_output: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+
+2016/06/24 20:46:43 logit: OUTPUT     '> '
+2016/06/24 20:46:43 EnhancedClearCommandExecutor.handle_output: output = > 
+2016/06/24 20:46:43 logit: PROMPT     '> '
+2016/06/24 20:46:43 prompt_handler: prompt=|> |
+2016/06/24 20:46:43 EnhancedClearCommandExecutor.handle_prompt: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+
+2016/06/24 20:46:43 ViewFileCommandExecutor.handle_prompt: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+
+2016/06/24 20:46:43 ConditionalBreakpointExecutor.get_breakpoint_location_at_line: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+
+2016/06/24 20:46:46 logit: OUTPUT     '\r\n'
+2016/06/24 20:46:46 EnhancedClearCommandExecutor.handle_output: output = 
+
+2016/06/24 20:46:46 logit: OUTPUT     'Breakpoint hit: '
+2016/06/24 20:46:46 EnhancedClearCommandExecutor.handle_output: output = Breakpoint hit: 
+2016/06/24 20:46:46 logit: PROMPT     'Breakpoint hit: '
+2016/06/24 20:46:46 prompt_handler: prompt=|Breakpoint hit: |
+2016/06/24 20:46:46 EnhancedClearCommandExecutor.handle_prompt: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+
+
+2016/06/24 20:46:46 ViewFileCommandExecutor.handle_prompt: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+
+
+2016/06/24 20:46:46 ConditionalBreakpointExecutor.get_breakpoint_location_at_line: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+
+
+2016/06/24 20:46:46 logit: OUTPUT     '"thread=http-127.0.0.1:8080-1", org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(), line=18 bci=0'
+2016/06/24 20:46:46 EnhancedClearCommandExecutor.handle_output: output = "thread=http-127.0.0.1:8080-1", org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(), line=18 bci=0
+2016/06/24 20:46:46 logit: OUTPUT     '\r\n\r\nhttp-127.0.0.1:8080-1[1] '
+2016/06/24 20:46:46 EnhancedClearCommandExecutor.handle_output: output = 
+
+http-127.0.0.1:8080-1[1] 
+2016/06/24 20:46:46 logit: PROMPT     'http-127.0.0.1:8080-1[1] '
+2016/06/24 20:46:46 prompt_handler: prompt=|http-127.0.0.1:8080-1[1] |
+2016/06/24 20:46:46 EnhancedClearCommandExecutor.handle_prompt: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+
+"thread=http-127.0.0.1:8080-1", org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(), line=18 bci=0
+
+
+2016/06/24 20:46:46 ViewFileCommandExecutor.handle_prompt: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+
+"thread=http-127.0.0.1:8080-1", org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(), line=18 bci=0
+
+
+2016/06/24 20:46:46 ConditionalBreakpointExecutor.get_breakpoint_location_at_line: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+
+"thread=http-127.0.0.1:8080-1", org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(), line=18 bci=0
+
+
+2016/06/24 20:46:49 logit: HISTORY    'w'
+2016/06/24 20:46:49 logit: INPUT      'w'
+2016/06/24 20:46:49 logit: OUTPUT     'where\r\n'
+2016/06/24 20:46:49 EnhancedClearCommandExecutor.handle_output: output = 
+2016/06/24 20:46:49 logit: OUTPUT     '  [1] org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke (TestInterceptor.java:18)\r\n'
+2016/06/24 20:46:49 EnhancedClearCommandExecutor.handle_output: output =   [1] org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke (TestInterceptor.java:18)
+
+2016/06/24 20:46:49 logit: OUTPUT     '  [2] sun.reflect.NativeMethodAccessorImpl.invoke0 (native method)\r\n  [3] sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)\r\n'
+2016/06/24 20:46:49 EnhancedClearCommandExecutor.handle_output: output =   [2] sun.reflect.NativeMethodAccessorImpl.invoke0 (native method)
+  [3] sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+
+2016/06/24 20:46:49 logit: OUTPUT     '  [4] sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)\r\n  [5] java.lang.reflect.Method.invoke (Method.java:497)\r\n'
+2016/06/24 20:46:49 EnhancedClearCommandExecutor.handle_output: output =   [4] sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+  [5] java.lang.reflect.Method.invoke (Method.java:497)
+
+2016/06/24 20:46:49 logit: OUTPUT     '  [6] org.jboss.as.ejb3.component.ContainerInterceptorMethodInterceptorFactory$ContainerInterceptorMethodInterceptor.processInvocation (ContainerInterceptorMethodInterceptorFactory.java:91)\r\n  [7] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)\r\n'
+2016/06/24 20:46:49 EnhancedClearCommandExecutor.handle_output: output =   [6] org.jboss.as.ejb3.component.ContainerInterceptorMethodInterceptorFactory$ContainerInterceptorMethodInterceptor.processInvocation (ContainerInterceptorMethodInterceptorFactory.java:91)
+  [7] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+
+2016/06/24 20:46:49 logit: OUTPUT     '  [8] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)\r\n  [9] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)\r\n  [10] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)\r\n'
+2016/06/24 20:46:49 EnhancedClearCommandExecutor.handle_output: output =   [8] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)
+  [9] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)
+  [10] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+
+2016/06/24 20:46:49 logit: OUTPUT     '  [11] org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation (ShutDownInterceptorFactory.java:64)\r\n  [12] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)\r\n  [13] org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation (LoggingInterceptor.java:59)\r\n'
+2016/06/24 20:46:49 EnhancedClearCommandExecutor.handle_output: output =   [11] org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation (ShutDownInterceptorFactory.java:64)
+  [12] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [13] org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation (LoggingInterceptor.java:59)
+
+2016/06/24 20:46:49 logit: OUTPUT     '  [14] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)\r\n  [15] org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation (NamespaceContextInterceptor.java:50)\r\n'
+2016/06/24 20:46:49 EnhancedClearCommandExecutor.handle_output: output =   [14] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [15] org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation (NamespaceContextInterceptor.java:50)
+
+2016/06/24 20:46:49 logit: OUTPUT     '  [16] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)\r\n  [17] org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation (AdditionalSetupInterceptor.java:55)\r\n  [18] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)\r\n'
+2016/06/24 20:46:49 EnhancedClearCommandExecutor.handle_output: output =   [16] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [17] org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation (AdditionalSetupInterceptor.java:55)
+  [18] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+
+2016/06/24 20:46:49 logit: OUTPUT     '  [19] org.jboss.as.ee.component.TCCLInterceptor.processInvocation (TCCLInterceptor.java:45)\r\n  [20] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)\r\n  [21] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)\r\n'
+2016/06/24 20:46:49 EnhancedClearCommandExecutor.handle_output: output =   [19] org.jboss.as.ee.component.TCCLInterceptor.processInvocation (TCCLInterceptor.java:45)
+  [20] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [21] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+
+2016/06/24 20:46:49 logit: OUTPUT     '  [22] org.jboss.as.ee.component.ViewService$View.invoke (ViewService.java:185)\r\n  [23] org.jboss.as.ee.component.ViewDescription$1.processInvocation (ViewDescription.java:185)\r\n'
+2016/06/24 20:46:49 EnhancedClearCommandExecutor.handle_output: output =   [22] org.jboss.as.ee.component.ViewService$View.invoke (ViewService.java:185)
+  [23] org.jboss.as.ee.component.ViewDescription$1.processInvocation (ViewDescription.java:185)
+
+2016/06/24 20:46:49 logit: OUTPUT     '  [24] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)\r\n  [25] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)\r\n  [26] org.jboss.as.ee.component.ProxyInvocationHandler.invoke (ProxyInvocationHandler.java:73)\r\n'
+2016/06/24 20:46:49 EnhancedClearCommandExecutor.handle_output: output =   [24] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [25] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [26] org.jboss.as.ee.component.ProxyInvocationHandler.invoke (ProxyInvocationHandler.java:73)
+
+2016/06/24 20:46:49 logit: OUTPUT     '  [27] org.jboss.as.quickstarts.ejb_security.SecuredEJB$$$view3.getSecurityInfo (null)\r\n'
+2016/06/24 20:46:49 EnhancedClearCommandExecutor.handle_output: output =   [27] org.jboss.as.quickstarts.ejb_security.SecuredEJB$$$view3.getSecurityInfo (null)
+
+2016/06/24 20:46:49 logit: OUTPUT     '  [28] org.jboss.as.quickstarts.ejb_security.SecuredEJBServlet.doGet (SecuredEJBServlet.java:63)\r\n  [29] javax.servlet.http.HttpServlet.service (HttpServlet.java:734)\r\n'
+2016/06/24 20:46:49 EnhancedClearCommandExecutor.handle_output: output =   [28] org.jboss.as.quickstarts.ejb_security.SecuredEJBServlet.doGet (SecuredEJBServlet.java:63)
+  [29] javax.servlet.http.HttpServlet.service (HttpServlet.java:734)
+
+2016/06/24 20:46:49 logit: OUTPUT     '  [30] javax.servlet.http.HttpServlet.service (HttpServlet.java:847)\r\n'
+2016/06/24 20:46:49 EnhancedClearCommandExecutor.handle_output: output =   [30] javax.servlet.http.HttpServlet.service (HttpServlet.java:847)
+
+2016/06/24 20:46:49 logit: OUTPUT     '  [31] org.apache.catalina.core.ApplicationFilterChain.internalDoFilter (ApplicationFilterChain.java:295)\r\n  [32] org.apache.catalina.core.ApplicationFilterChain.doFilter (ApplicationFilterChain.java:214)\r\n  [33] org.apache.catalina.core.StandardWrapperValve.invoke (StandardWrapperValve.java:231)\r\n  [34] org.apache.catalina.core.StandardContextValve.invoke (StandardContextValve.java:149)\r\n  [35] org.apache.catalina.authenticator.AuthenticatorBase.invoke (AuthenticatorBase.java:512)\r\n'
+2016/06/24 20:46:49 EnhancedClearCommandExecutor.handle_output: output =   [31] org.apache.catalina.core.ApplicationFilterChain.internalDoFilter (ApplicationFilterChain.java:295)
+  [32] org.apache.catalina.core.ApplicationFilterChain.doFilter (ApplicationFilterChain.java:214)
+  [33] org.apache.catalina.core.StandardWrapperValve.invoke (StandardWrapperValve.java:231)
+  [34] org.apache.catalina.core.StandardContextValve.invoke (StandardContextValve.java:149)
+  [35] org.apache.catalina.authenticator.AuthenticatorBase.invoke (AuthenticatorBase.java:512)
+
+2016/06/24 20:46:49 logit: OUTPUT     '  [36] org.jboss.as.web.security.SecurityContextAssociationValve.invoke (SecurityContextAssociationValve.java:169)\r\n'
+2016/06/24 20:46:49 EnhancedClearCommandExecutor.handle_output: output =   [36] org.jboss.as.web.security.SecurityContextAssociationValve.invoke (SecurityContextAssociationValve.java:169)
+
+2016/06/24 20:46:49 logit: OUTPUT     '  [37] org.apache.catalina.core.StandardHostValve.invoke (StandardHostValve.java:150)\r\n  [38] org.apache.catalina.valves.ErrorReportValve.invoke (ErrorReportValve.java:97)\r\n'
+2016/06/24 20:46:49 EnhancedClearCommandExecutor.handle_output: output =   [37] org.apache.catalina.core.StandardHostValve.invoke (StandardHostValve.java:150)
+  [38] org.apache.catalina.valves.ErrorReportValve.invoke (ErrorReportValve.java:97)
+
+2016/06/24 20:46:49 logit: OUTPUT     '  [39] org.apache.catalina.core.StandardEngineValve.invoke (StandardEngineValve.java:102)\r\n  [40] org.apache.catalina.connector.CoyoteAdapter.service (CoyoteAdapter.java:344)\r\n'
+2016/06/24 20:46:49 EnhancedClearCommandExecutor.handle_output: output =   [39] org.apache.catalina.core.StandardEngineValve.invoke (StandardEngineValve.java:102)
+  [40] org.apache.catalina.connector.CoyoteAdapter.service (CoyoteAdapter.java:344)
+
+2016/06/24 20:46:49 logit: OUTPUT     '  [41] org.apache.coyote.http11.Http11Processor.process (Http11Processor.java:854)\r\n  [42] org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process (Http11Protocol.java:654)\r\n'
+2016/06/24 20:46:49 EnhancedClearCommandExecutor.handle_output: output =   [41] org.apache.coyote.http11.Http11Processor.process (Http11Processor.java:854)
+  [42] org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process (Http11Protocol.java:654)
+
+2016/06/24 20:46:49 logit: OUTPUT     '  [43] org.apache.tomcat.util.net.JIoEndpoint$Worker.run (JIoEndpoint.java:926)\r\n  [44] java.lang.Thread.run (Thread.java:745)\r\nhttp-127.0.0.1:8080-1[1] '
+2016/06/24 20:46:49 EnhancedClearCommandExecutor.handle_output: output =   [43] org.apache.tomcat.util.net.JIoEndpoint$Worker.run (JIoEndpoint.java:926)
+  [44] java.lang.Thread.run (Thread.java:745)
+http-127.0.0.1:8080-1[1] 
+2016/06/24 20:46:49 logit: PROMPT     'http-127.0.0.1:8080-1[1] '
+2016/06/24 20:46:49 prompt_handler: prompt=|http-127.0.0.1:8080-1[1] |
+2016/06/24 20:46:49 EnhancedClearCommandExecutor.handle_prompt: output =   [1] org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke (TestInterceptor.java:18)
+  [2] sun.reflect.NativeMethodAccessorImpl.invoke0 (native method)
+  [3] sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+  [4] sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+  [5] java.lang.reflect.Method.invoke (Method.java:497)
+  [6] org.jboss.as.ejb3.component.ContainerInterceptorMethodInterceptorFactory$ContainerInterceptorMethodInterceptor.processInvocation (ContainerInterceptorMethodInterceptorFactory.java:91)
+  [7] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [8] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)
+  [9] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)
+  [10] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [11] org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation (ShutDownInterceptorFactory.java:64)
+  [12] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [13] org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation (LoggingInterceptor.java:59)
+  [14] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [15] org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation (NamespaceContextInterceptor.java:50)
+  [16] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [17] org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation (AdditionalSetupInterceptor.java:55)
+  [18] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [19] org.jboss.as.ee.component.TCCLInterceptor.processInvocation (TCCLInterceptor.java:45)
+  [20] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [21] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [22] org.jboss.as.ee.component.ViewService$View.invoke (ViewService.java:185)
+  [23] org.jboss.as.ee.component.ViewDescription$1.processInvocation (ViewDescription.java:185)
+  [24] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [25] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [26] org.jboss.as.ee.component.ProxyInvocationHandler.invoke (ProxyInvocationHandler.java:73)
+  [27] org.jboss.as.quickstarts.ejb_security.SecuredEJB$$$view3.getSecurityInfo (null)
+  [28] org.jboss.as.quickstarts.ejb_security.SecuredEJBServlet.doGet (SecuredEJBServlet.java:63)
+  [29] javax.servlet.http.HttpServlet.service (HttpServlet.java:734)
+  [30] javax.servlet.http.HttpServlet.service (HttpServlet.java:847)
+  [31] org.apache.catalina.core.ApplicationFilterChain.internalDoFilter (ApplicationFilterChain.java:295)
+  [32] org.apache.catalina.core.ApplicationFilterChain.doFilter (ApplicationFilterChain.java:214)
+  [33] org.apache.catalina.core.StandardWrapperValve.invoke (StandardWrapperValve.java:231)
+  [34] org.apache.catalina.core.StandardContextValve.invoke (StandardContextValve.java:149)
+  [35] org.apache.catalina.authenticator.AuthenticatorBase.invoke (AuthenticatorBase.java:512)
+  [36] org.jboss.as.web.security.SecurityContextAssociationValve.invoke (SecurityContextAssociationValve.java:169)
+  [37] org.apache.catalina.core.StandardHostValve.invoke (StandardHostValve.java:150)
+  [38] org.apache.catalina.valves.ErrorReportValve.invoke (ErrorReportValve.java:97)
+  [39] org.apache.catalina.core.StandardEngineValve.invoke (StandardEngineValve.java:102)
+  [40] org.apache.catalina.connector.CoyoteAdapter.service (CoyoteAdapter.java:344)
+  [41] org.apache.coyote.http11.Http11Processor.process (Http11Processor.java:854)
+  [42] org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process (Http11Protocol.java:654)
+  [43] org.apache.tomcat.util.net.JIoEndpoint$Worker.run (JIoEndpoint.java:926)
+  [44] java.lang.Thread.run (Thread.java:745)
+
+2016/06/24 20:46:49 ViewFileCommandExecutor.handle_prompt: output =   [1] org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke (TestInterceptor.java:18)
+  [2] sun.reflect.NativeMethodAccessorImpl.invoke0 (native method)
+  [3] sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+  [4] sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+  [5] java.lang.reflect.Method.invoke (Method.java:497)
+  [6] org.jboss.as.ejb3.component.ContainerInterceptorMethodInterceptorFactory$ContainerInterceptorMethodInterceptor.processInvocation (ContainerInterceptorMethodInterceptorFactory.java:91)
+  [7] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [8] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)
+  [9] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)
+  [10] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [11] org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation (ShutDownInterceptorFactory.java:64)
+  [12] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [13] org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation (LoggingInterceptor.java:59)
+  [14] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [15] org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation (NamespaceContextInterceptor.java:50)
+  [16] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [17] org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation (AdditionalSetupInterceptor.java:55)
+  [18] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [19] org.jboss.as.ee.component.TCCLInterceptor.processInvocation (TCCLInterceptor.java:45)
+  [20] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [21] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [22] org.jboss.as.ee.component.ViewService$View.invoke (ViewService.java:185)
+  [23] org.jboss.as.ee.component.ViewDescription$1.processInvocation (ViewDescription.java:185)
+  [24] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [25] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [26] org.jboss.as.ee.component.ProxyInvocationHandler.invoke (ProxyInvocationHandler.java:73)
+  [27] org.jboss.as.quickstarts.ejb_security.SecuredEJB$$$view3.getSecurityInfo (null)
+  [28] org.jboss.as.quickstarts.ejb_security.SecuredEJBServlet.doGet (SecuredEJBServlet.java:63)
+  [29] javax.servlet.http.HttpServlet.service (HttpServlet.java:734)
+  [30] javax.servlet.http.HttpServlet.service (HttpServlet.java:847)
+  [31] org.apache.catalina.core.ApplicationFilterChain.internalDoFilter (ApplicationFilterChain.java:295)
+  [32] org.apache.catalina.core.ApplicationFilterChain.doFilter (ApplicationFilterChain.java:214)
+  [33] org.apache.catalina.core.StandardWrapperValve.invoke (StandardWrapperValve.java:231)
+  [34] org.apache.catalina.core.StandardContextValve.invoke (StandardContextValve.java:149)
+  [35] org.apache.catalina.authenticator.AuthenticatorBase.invoke (AuthenticatorBase.java:512)
+  [36] org.jboss.as.web.security.SecurityContextAssociationValve.invoke (SecurityContextAssociationValve.java:169)
+  [37] org.apache.catalina.core.StandardHostValve.invoke (StandardHostValve.java:150)
+  [38] org.apache.catalina.valves.ErrorReportValve.invoke (ErrorReportValve.java:97)
+  [39] org.apache.catalina.core.StandardEngineValve.invoke (StandardEngineValve.java:102)
+  [40] org.apache.catalina.connector.CoyoteAdapter.service (CoyoteAdapter.java:344)
+  [41] org.apache.coyote.http11.Http11Processor.process (Http11Processor.java:854)
+  [42] org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process (Http11Protocol.java:654)
+  [43] org.apache.tomcat.util.net.JIoEndpoint$Worker.run (JIoEndpoint.java:926)
+  [44] java.lang.Thread.run (Thread.java:745)
+
+2016/06/24 20:46:49 ConditionalBreakpointExecutor.get_breakpoint_location_at_line: output =   [1] org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke (TestInterceptor.java:18)
+  [2] sun.reflect.NativeMethodAccessorImpl.invoke0 (native method)
+  [3] sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+  [4] sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+  [5] java.lang.reflect.Method.invoke (Method.java:497)
+  [6] org.jboss.as.ejb3.component.ContainerInterceptorMethodInterceptorFactory$ContainerInterceptorMethodInterceptor.processInvocation (ContainerInterceptorMethodInterceptorFactory.java:91)
+  [7] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [8] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)
+  [9] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)
+  [10] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [11] org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation (ShutDownInterceptorFactory.java:64)
+  [12] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [13] org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation (LoggingInterceptor.java:59)
+  [14] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [15] org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation (NamespaceContextInterceptor.java:50)
+  [16] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [17] org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation (AdditionalSetupInterceptor.java:55)
+  [18] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [19] org.jboss.as.ee.component.TCCLInterceptor.processInvocation (TCCLInterceptor.java:45)
+  [20] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [21] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [22] org.jboss.as.ee.component.ViewService$View.invoke (ViewService.java:185)
+  [23] org.jboss.as.ee.component.ViewDescription$1.processInvocation (ViewDescription.java:185)
+  [24] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [25] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [26] org.jboss.as.ee.component.ProxyInvocationHandler.invoke (ProxyInvocationHandler.java:73)
+  [27] org.jboss.as.quickstarts.ejb_security.SecuredEJB$$$view3.getSecurityInfo (null)
+  [28] org.jboss.as.quickstarts.ejb_security.SecuredEJBServlet.doGet (SecuredEJBServlet.java:63)
+  [29] javax.servlet.http.HttpServlet.service (HttpServlet.java:734)
+  [30] javax.servlet.http.HttpServlet.service (HttpServlet.java:847)
+  [31] org.apache.catalina.core.ApplicationFilterChain.internalDoFilter (ApplicationFilterChain.java:295)
+  [32] org.apache.catalina.core.ApplicationFilterChain.doFilter (ApplicationFilterChain.java:214)
+  [33] org.apache.catalina.core.StandardWrapperValve.invoke (StandardWrapperValve.java:231)
+  [34] org.apache.catalina.core.StandardContextValve.invoke (StandardContextValve.java:149)
+  [35] org.apache.catalina.authenticator.AuthenticatorBase.invoke (AuthenticatorBase.java:512)
+  [36] org.jboss.as.web.security.SecurityContextAssociationValve.invoke (SecurityContextAssociationValve.java:169)
+  [37] org.apache.catalina.core.StandardHostValve.invoke (StandardHostValve.java:150)
+  [38] org.apache.catalina.valves.ErrorReportValve.invoke (ErrorReportValve.java:97)
+  [39] org.apache.catalina.core.StandardEngineValve.invoke (StandardEngineValve.java:102)
+  [40] org.apache.catalina.connector.CoyoteAdapter.service (CoyoteAdapter.java:344)
+  [41] org.apache.coyote.http11.Http11Processor.process (Http11Processor.java:854)
+  [42] org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process (Http11Protocol.java:654)
+  [43] org.apache.tomcat.util.net.JIoEndpoint$Worker.run (JIoEndpoint.java:926)
+  [44] java.lang.Thread.run (Thread.java:745)
+
+2016/06/24 21:00:17 logit: HISTORY    'c'
+2016/06/24 21:00:17 logit: INPUT      'c'
+2016/06/24 21:00:17 logit: OUTPUT     'cont\r\n'
+2016/06/24 21:00:17 EnhancedClearCommandExecutor.handle_output: output = 
+2016/06/24 21:00:17 logit: OUTPUT     '> '
+2016/06/24 21:00:17 EnhancedClearCommandExecutor.handle_output: output = > 
+2016/06/24 21:00:17 logit: PROMPT     '> '
+2016/06/24 21:00:17 prompt_handler: prompt=|> |
+2016/06/24 21:00:17 EnhancedClearCommandExecutor.handle_prompt: output = 
+2016/06/24 21:00:17 ViewFileCommandExecutor.handle_prompt: output = 
+2016/06/24 21:00:17 ConditionalBreakpointExecutor.get_breakpoint_location_at_line: output = 
+2016/06/24 21:00:21 logit: OUTPUT     'Input stream closed.\r\n'
+2016/06/24 21:00:21 EnhancedClearCommandExecutor.handle_output: output = Input stream closed.
+
+2016/06/24 21:00:21 logit: PROMPT     ''
+2016/06/24 21:01:59 rljdb gets started
+
+2016/06/24 21:01:59 logit: OUTPUT     ''
+2016/06/24 21:01:59 EnhancedClearCommandExecutor.handle_output: output = 
+2016/06/24 21:01:59 logit: PROMPT     ''
+2016/06/24 21:01:59 logit: OUTPUT     'Set uncaught java.lang.Throwable'
+2016/06/24 21:01:59 EnhancedClearCommandExecutor.handle_output: output = Set uncaught java.lang.Throwable
+2016/06/24 21:01:59 logit: OUTPUT     '\r\n'
+2016/06/24 21:01:59 EnhancedClearCommandExecutor.handle_output: output = 
+
+2016/06/24 21:01:59 logit: OUTPUT     'Set deferred uncaught java.lang.Throwable\r\n'
+2016/06/24 21:01:59 EnhancedClearCommandExecutor.handle_output: output = Set deferred uncaught java.lang.Throwable
+
+2016/06/24 21:01:59 logit: OUTPUT     'Initializing jdb ...\r\n'
+2016/06/24 21:01:59 EnhancedClearCommandExecutor.handle_output: output = Initializing jdb ...
+
+2016/06/24 21:01:59 logit: OUTPUT     '> '
+2016/06/24 21:01:59 EnhancedClearCommandExecutor.handle_output: output = > 
+2016/06/24 21:01:59 logit: PROMPT     '> '
+2016/06/24 21:01:59 BreakPointManager.activate: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+> 
+2016/06/24 21:01:59 BreakPointManager.activate: location = org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:01:59 BreakPointManager.activate: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)\r\n> 
+2016/06/24 21:01:59 Could not open ./rljdb.sourcepath
+2016/06/24 21:01:59 prompt_handler: prompt=|> |
+2016/06/24 21:01:59 EnhancedClearCommandExecutor.handle_prompt: output = Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+Initializing jdb ...
+
+2016/06/24 21:01:59 ViewFileCommandExecutor.handle_prompt: output = Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+Initializing jdb ...
+
+2016/06/24 21:01:59 ConditionalBreakpointExecutor.get_breakpoint_location_at_line: output = Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+Initializing jdb ...
+
+2016/06/24 21:16:43 logit: COMPLETION 'stop in org.jboss.samp\tsamp\t'
+2016/06/24 21:16:43 BreakPointerManager.extract_breakpoint: line=> 
+2016/06/24 21:16:43 BreakPointerManager.extract_breakpoint: m.group(1)=None
+2016/06/24 21:16:43 BreakPointerManager.extract_breakpoint: line=	breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:16:43 BreakPointerManager.extract_breakpoint: m.group(1)=org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:16:43 BreakPointerManager.parse_clear: vars=org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:16:43 BreakPointerManager.deactivate: bread points=[org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)]
+2016/06/24 21:16:43 BreakPointerManager.deactivate: clear for each bp output=Removed: breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+> 
+2016/06/24 21:16:43 CompletionRequest.__init__: line=stop in org.jboss.samp
+2016/06/24 21:16:43 CompletionRequest.__init__: prefix=samp
+2016/06/24 21:16:43 CompletionRequest.__init__: completions=[]
+2016/06/24 21:16:43 get_tokes: ["stop", "in", "org.jboss.samp"]
+2016/06/24 21:16:43 CompletionRequest.__init__: tokens=[stop, in, org.jboss.samp]
+2016/06/24 21:16:43 CompletionRequest.__init__: len(tokens)=3
+2016/06/24 21:16:43 ClassMemberCompletionExecutor.handle_completion: request.completions=[
+2016/06/24 21:16:43 ClassMemberCompletionExecutor.parse_last_token: | org.jboss | samp |
+2016/06/24 21:16:43 ClassMemberCompetionExecutor.do_complition: base_name=org.jboss tail=samp paren=
+2016/06/24 21:16:43 is_class_name: output="org.jboss" is not a valid id or class name.
+> 
+2016/06/24 21:16:43 get_class_name : output = com.sun.tools.example.debug.expr.ParseException: Name unknown: org.jboss.getClass
+ org.jboss.getClass() = null
+> 
+2016/06/24 21:16:43 get_class_name : class_name = None
+2016/06/24 21:16:47 BreakPointManager.activate: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+> 
+2016/06/24 21:16:47 BreakPointManager.activate: location = org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:16:47 BreakPointManager.activate: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)\r\n> 
+2016/06/24 21:16:47 logit: COMPLETION 'stop in org.jboss.samples\tsamples\t'
+2016/06/24 21:16:47 BreakPointerManager.extract_breakpoint: line=> 
+2016/06/24 21:16:47 BreakPointerManager.extract_breakpoint: m.group(1)=None
+2016/06/24 21:16:47 BreakPointerManager.extract_breakpoint: line=	breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:16:47 BreakPointerManager.extract_breakpoint: m.group(1)=org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:16:47 BreakPointerManager.parse_clear: vars=org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:16:47 BreakPointerManager.deactivate: bread points=[org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)]
+2016/06/24 21:16:47 BreakPointerManager.deactivate: clear for each bp output=Removed: breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+> 
+2016/06/24 21:16:47 CompletionRequest.__init__: line=stop in org.jboss.samples
+2016/06/24 21:16:47 CompletionRequest.__init__: prefix=samples
+2016/06/24 21:16:47 CompletionRequest.__init__: completions=[]
+2016/06/24 21:16:47 get_tokes: ["stop", "in", "org.jboss.samples"]
+2016/06/24 21:16:47 CompletionRequest.__init__: tokens=[stop, in, org.jboss.samples]
+2016/06/24 21:16:47 CompletionRequest.__init__: len(tokens)=3
+2016/06/24 21:16:47 ClassMemberCompletionExecutor.handle_completion: request.completions=[
+2016/06/24 21:16:47 ClassMemberCompletionExecutor.parse_last_token: | org.jboss | samples |
+2016/06/24 21:16:47 ClassMemberCompetionExecutor.do_complition: base_name=org.jboss tail=samples paren=
+2016/06/24 21:16:47 is_class_name: output="org.jboss" is not a valid id or class name.
+> 
+2016/06/24 21:16:47 get_class_name : output = com.sun.tools.example.debug.expr.ParseException: Name unknown: org.jboss.getClass
+ org.jboss.getClass() = null
+> 
+2016/06/24 21:16:47 get_class_name : class_name = None
+2016/06/24 21:16:50 BreakPointManager.activate: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+> 
+2016/06/24 21:16:50 BreakPointManager.activate: location = org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:16:50 BreakPointManager.activate: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)\r\n> 
+2016/06/24 21:16:51 logit: COMPLETION 'stop in org.jboss.samples.\t\t'
+2016/06/24 21:16:51 BreakPointerManager.extract_breakpoint: line=> 
+2016/06/24 21:16:51 BreakPointerManager.extract_breakpoint: m.group(1)=None
+2016/06/24 21:16:51 BreakPointerManager.extract_breakpoint: line=	breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:16:51 BreakPointerManager.extract_breakpoint: m.group(1)=org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:16:51 BreakPointerManager.parse_clear: vars=org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:16:51 BreakPointerManager.deactivate: bread points=[org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)]
+2016/06/24 21:16:51 BreakPointerManager.deactivate: clear for each bp output=Removed: breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+> 
+2016/06/24 21:16:51 CompletionRequest.__init__: line=stop in org.jboss.samples.
+2016/06/24 21:16:51 CompletionRequest.__init__: prefix=
+2016/06/24 21:16:51 CompletionRequest.__init__: completions=[]
+2016/06/24 21:16:51 get_tokes: ["stop", "in", "org.jboss.samples."]
+2016/06/24 21:16:51 CompletionRequest.__init__: tokens=[stop, in, org.jboss.samples.]
+2016/06/24 21:16:51 CompletionRequest.__init__: len(tokens)=3
+2016/06/24 21:16:51 ClassMemberCompletionExecutor.handle_completion: request.completions=[
+2016/06/24 21:16:51 ClassMemberCompletionExecutor.parse_last_token: | org.jboss.samples |
+2016/06/24 21:16:51 ClassMemberCompetionExecutor.do_complition: base_name=org.jboss.samples tail= paren=
+2016/06/24 21:16:51 is_class_name: output="org.jboss.samples" is not a valid id or class name.
+> 
+2016/06/24 21:16:51 get_class_name : output = com.sun.tools.example.debug.expr.ParseException: Name unknown: org.jboss.samples.getClass
+ org.jboss.samples.getClass() = null
+> 
+2016/06/24 21:16:51 get_class_name : class_name = None
+2016/06/24 21:16:54 BreakPointManager.activate: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+> 
+2016/06/24 21:16:54 BreakPointManager.activate: location = org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:16:54 BreakPointManager.activate: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)\r\n> 
+2016/06/24 21:16:56 logit: COMPLETION 'stop in org.jboss.samples.webservices.\t\t'
+2016/06/24 21:16:56 BreakPointerManager.extract_breakpoint: line=> 
+2016/06/24 21:16:56 BreakPointerManager.extract_breakpoint: m.group(1)=None
+2016/06/24 21:16:56 BreakPointerManager.extract_breakpoint: line=	breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:16:56 BreakPointerManager.extract_breakpoint: m.group(1)=org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:16:56 BreakPointerManager.parse_clear: vars=org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:16:56 BreakPointerManager.deactivate: bread points=[org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)]
+2016/06/24 21:16:56 BreakPointerManager.deactivate: clear for each bp output=Removed: breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+> 
+2016/06/24 21:16:56 CompletionRequest.__init__: line=stop in org.jboss.samples.webservices.
+2016/06/24 21:16:56 CompletionRequest.__init__: prefix=
+2016/06/24 21:16:56 CompletionRequest.__init__: completions=[]
+2016/06/24 21:16:56 get_tokes: ["stop", "in", "org.jboss.samples.webservices."]
+2016/06/24 21:16:56 CompletionRequest.__init__: tokens=[stop, in, org.jboss.samples.webservices.]
+2016/06/24 21:16:56 CompletionRequest.__init__: len(tokens)=3
+2016/06/24 21:16:56 ClassMemberCompletionExecutor.handle_completion: request.completions=[
+2016/06/24 21:16:56 ClassMemberCompletionExecutor.parse_last_token: | org.jboss.samples.webservices |
+2016/06/24 21:16:56 ClassMemberCompetionExecutor.do_complition: base_name=org.jboss.samples.webservices tail= paren=
+2016/06/24 21:16:56 is_class_name: output="org.jboss.samples.webservices" is not a valid id or class name.
+> 
+2016/06/24 21:16:56 get_class_name : output = com.sun.tools.example.debug.expr.ParseException: Name unknown: org.jboss.samples.webservices.getClass
+ org.jboss.samples.webservices.getClass() = null
+> 
+2016/06/24 21:16:56 get_class_name : class_name = None
+2016/06/24 21:17:00 BreakPointManager.activate: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+> 
+2016/06/24 21:17:00 BreakPointManager.activate: location = org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:17:00 BreakPointManager.activate: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)\r\n> 
+2016/06/24 21:17:01 logit: COMPLETION 'stop in org.jboss.samples.webservices.\t\t'
+2016/06/24 21:17:01 BreakPointerManager.extract_breakpoint: line=> 
+2016/06/24 21:17:01 BreakPointerManager.extract_breakpoint: m.group(1)=None
+2016/06/24 21:17:01 BreakPointerManager.extract_breakpoint: line=	breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:17:01 BreakPointerManager.extract_breakpoint: m.group(1)=org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:17:01 BreakPointerManager.parse_clear: vars=org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:17:01 BreakPointerManager.deactivate: bread points=[org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)]
+2016/06/24 21:17:01 BreakPointerManager.deactivate: clear for each bp output=Removed: breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+> 
+2016/06/24 21:17:01 CompletionRequest.__init__: line=stop in org.jboss.samples.webservices.
+2016/06/24 21:17:01 CompletionRequest.__init__: prefix=
+2016/06/24 21:17:01 CompletionRequest.__init__: completions=[]
+2016/06/24 21:17:01 get_tokes: ["stop", "in", "org.jboss.samples.webservices."]
+2016/06/24 21:17:01 CompletionRequest.__init__: tokens=[stop, in, org.jboss.samples.webservices.]
+2016/06/24 21:17:01 CompletionRequest.__init__: len(tokens)=3
+2016/06/24 21:17:01 ClassMemberCompletionExecutor.handle_completion: request.completions=[
+2016/06/24 21:17:01 ClassMemberCompletionExecutor.parse_last_token: | org.jboss.samples.webservices |
+2016/06/24 21:17:01 ClassMemberCompetionExecutor.do_complition: base_name=org.jboss.samples.webservices tail= paren=
+2016/06/24 21:17:01 is_class_name: output="org.jboss.samples.webservices" is not a valid id or class name.
+> 
+2016/06/24 21:17:01 get_class_name : output = com.sun.tools.example.debug.expr.ParseException: Name unknown: org.jboss.samples.webservices.getClass
+ org.jboss.samples.webservices.getClass() = null
+> 
+2016/06/24 21:17:01 get_class_name : class_name = None
+2016/06/24 21:17:05 BreakPointManager.activate: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+> 
+2016/06/24 21:17:05 BreakPointManager.activate: location = org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:17:05 BreakPointManager.activate: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)\r\n> 
+2016/06/24 21:17:07 logit: COMPLETION 'stop in org.jboss.samples.webservices.H\tH\t'
+2016/06/24 21:17:07 BreakPointerManager.extract_breakpoint: line=> 
+2016/06/24 21:17:07 BreakPointerManager.extract_breakpoint: m.group(1)=None
+2016/06/24 21:17:07 BreakPointerManager.extract_breakpoint: line=	breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:17:07 BreakPointerManager.extract_breakpoint: m.group(1)=org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:17:07 BreakPointerManager.parse_clear: vars=org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:17:07 BreakPointerManager.deactivate: bread points=[org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)]
+2016/06/24 21:17:07 BreakPointerManager.deactivate: clear for each bp output=Removed: breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+> 
+2016/06/24 21:17:07 CompletionRequest.__init__: line=stop in org.jboss.samples.webservices.H
+2016/06/24 21:17:07 CompletionRequest.__init__: prefix=H
+2016/06/24 21:17:07 CompletionRequest.__init__: completions=[]
+2016/06/24 21:17:07 get_tokes: ["stop", "in", "org.jboss.samples.webservices.H"]
+2016/06/24 21:17:07 CompletionRequest.__init__: tokens=[stop, in, org.jboss.samples.webservices.H]
+2016/06/24 21:17:07 CompletionRequest.__init__: len(tokens)=3
+2016/06/24 21:17:07 ClassMemberCompletionExecutor.handle_completion: request.completions=[
+2016/06/24 21:17:07 ClassMemberCompletionExecutor.parse_last_token: | org.jboss.samples.webservices | H |
+2016/06/24 21:17:07 ClassMemberCompetionExecutor.do_complition: base_name=org.jboss.samples.webservices tail=H paren=
+2016/06/24 21:17:07 is_class_name: output="org.jboss.samples.webservices" is not a valid id or class name.
+> 
+2016/06/24 21:17:07 get_class_name : output = com.sun.tools.example.debug.expr.ParseException: Name unknown: org.jboss.samples.webservices.getClass
+ org.jboss.samples.webservices.getClass() = null
+> 
+2016/06/24 21:17:07 get_class_name : class_name = None
+2016/06/24 21:17:10 BreakPointManager.activate: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+> 
+2016/06/24 21:17:10 BreakPointManager.activate: location = org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:17:10 BreakPointManager.activate: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)\r\n> 
+2016/06/24 21:17:12 logit: COMPLETION 'stop in org.jboss.samples.webservices.HelloWorld.\t\t'
+2016/06/24 21:17:12 BreakPointerManager.extract_breakpoint: line=> 
+2016/06/24 21:17:12 BreakPointerManager.extract_breakpoint: m.group(1)=None
+2016/06/24 21:17:12 BreakPointerManager.extract_breakpoint: line=	breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:17:12 BreakPointerManager.extract_breakpoint: m.group(1)=org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:17:12 BreakPointerManager.parse_clear: vars=org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:17:12 BreakPointerManager.deactivate: bread points=[org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)]
+2016/06/24 21:17:12 BreakPointerManager.deactivate: clear for each bp output=Removed: breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+> 
+2016/06/24 21:17:12 CompletionRequest.__init__: line=stop in org.jboss.samples.webservices.HelloWorld.
+2016/06/24 21:17:12 CompletionRequest.__init__: prefix=
+2016/06/24 21:17:12 CompletionRequest.__init__: completions=[]
+2016/06/24 21:17:12 get_tokes: ["stop", "in", "org.jboss.samples.webservices.HelloWorld."]
+2016/06/24 21:17:12 CompletionRequest.__init__: tokens=[stop, in, org.jboss.samples.webservices.HelloWorld.]
+2016/06/24 21:17:12 CompletionRequest.__init__: len(tokens)=3
+2016/06/24 21:17:12 ClassMemberCompletionExecutor.handle_completion: request.completions=[
+2016/06/24 21:17:12 ClassMemberCompletionExecutor.parse_last_token: | org.jboss.samples.webservices.HelloWorld |
+2016/06/24 21:17:12 ClassMemberCompetionExecutor.do_complition: base_name=org.jboss.samples.webservices.HelloWorld tail= paren=
+2016/06/24 21:17:13 is_class_name: output=Class: org.jboss.samples.webservices.HelloWorld
+extends: java.lang.Object
+subclass: org.jboss.samples.webservices.HelloWorld$$$view4
+nested: org.jboss.samples.webservices.HelloWorld$$$view4
+> 
+2016/06/24 21:17:13 ClassMemberCompetionExecutor.do_complition: class_name=org.jboss.samples.webservices.HelloWorld
+2016/06/24 21:17:13 ClassMemberCompletionExecutor.complete_fields: tail=
+2016/06/24 21:17:13 ClassMemberCompletionExecutor.complete_fields: output=** fields list **
+> 
+2016/06/24 21:17:13 ClassMemberCompletionExecutor.parse_fields: lines = > 
+2016/06/24 21:17:13 ClassMemberCompletionExecutor.complete_fields: fields=[
+2016/06/24 21:17:13 ClassMemberCompletionExecutor.handle_completion: fields=[
+2016/06/24 21:17:13 ClassMemberCompletionExecutor.complete_methods: tail=
+2016/06/24 21:17:13 ClassMemberCompletionExecutor.complete_methods: output=** methods list **
+org.jboss.samples.webservices.HelloWorld <init>()
+org.jboss.samples.webservices.HelloWorld sayHello(java.lang.String)
+java.lang.Object <init>()
+java.lang.Object registerNatives()
+java.lang.Object getClass()
+java.lang.Object hashCode()
+java.lang.Object equals(java.lang.Object)
+java.lang.Object clone()
+java.lang.Object toString()
+java.lang.Object notify()
+java.lang.Object notifyAll()
+java.lang.Object wait(long)
+java.lang.Object wait(long, int)
+java.lang.Object wait()
+java.lang.Object finalize()
+java.lang.Object <clinit>()
+> 
+2016/06/24 21:17:13 ClassMemberCompletionExecutor.parse_methods: lines = org.jboss.samples.webservices.HelloWorld <init>(),org.jboss.samples.webservices.HelloWorld sayHello(java.lang.String),java.lang.Object <init>(),java.lang.Object registerNatives(),java.lang.Object getClass(),java.lang.Object hashCode(),java.lang.Object equals(java.lang.Object),java.lang.Object clone(),java.lang.Object toString(),java.lang.Object notify(),java.lang.Object notifyAll(),java.lang.Object wait(long),java.lang.Object wait(long, int),java.lang.Object wait(),java.lang.Object finalize(),java.lang.Object <clinit>(),> 
+2016/06/24 21:17:13 ClassMemberCompletionExecutor.complete_methods: methods=[<init>(),sayHello(java.lang.String),<init>(),registerNatives(),getClass(),hashCode(),equals(java.lang.Object),clone(),toString(),notify(),notifyAll(),wait(long),wait(long,,wait(),finalize(),<clinit>()
+2016/06/24 21:17:13 ClassMemberCompletionExecutor.handle_completion: len(request.completions)=17
+2016/06/24 21:17:13 BreakPointManager.activate: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+> 
+2016/06/24 21:17:13 BreakPointManager.activate: location = org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:17:13 BreakPointManager.activate: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)\r\n> 
+2016/06/24 21:17:13 logit: COMPLETION 'stop in org.jboss.samples.webservices.HelloWorld.\t\t'
+2016/06/24 21:17:13 BreakPointerManager.extract_breakpoint: line=> 
+2016/06/24 21:17:13 BreakPointerManager.extract_breakpoint: m.group(1)=None
+2016/06/24 21:17:13 BreakPointerManager.extract_breakpoint: line=	breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:17:13 BreakPointerManager.extract_breakpoint: m.group(1)=org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:17:13 BreakPointerManager.parse_clear: vars=org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:17:13 BreakPointerManager.deactivate: bread points=[org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)]
+2016/06/24 21:17:13 BreakPointerManager.deactivate: clear for each bp output=Removed: breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+> 
+2016/06/24 21:17:13 CompletionRequest.__init__: line=stop in org.jboss.samples.webservices.HelloWorld.
+2016/06/24 21:17:13 CompletionRequest.__init__: prefix=
+2016/06/24 21:17:13 CompletionRequest.__init__: completions=[]
+2016/06/24 21:17:13 get_tokes: ["stop", "in", "org.jboss.samples.webservices.HelloWorld."]
+2016/06/24 21:17:13 CompletionRequest.__init__: tokens=[stop, in, org.jboss.samples.webservices.HelloWorld.]
+2016/06/24 21:17:13 CompletionRequest.__init__: len(tokens)=3
+2016/06/24 21:17:13 ClassMemberCompletionExecutor.handle_completion: request.completions=[
+2016/06/24 21:17:13 ClassMemberCompletionExecutor.parse_last_token: | org.jboss.samples.webservices.HelloWorld |
+2016/06/24 21:17:13 ClassMemberCompetionExecutor.do_complition: base_name=org.jboss.samples.webservices.HelloWorld tail= paren=
+2016/06/24 21:17:13 is_class_name: output=Class: org.jboss.samples.webservices.HelloWorld
+extends: java.lang.Object
+subclass: org.jboss.samples.webservices.HelloWorld$$$view4
+nested: org.jboss.samples.webservices.HelloWorld$$$view4
+> 
+2016/06/24 21:17:13 ClassMemberCompetionExecutor.do_complition: class_name=org.jboss.samples.webservices.HelloWorld
+2016/06/24 21:17:13 ClassMemberCompletionExecutor.complete_fields: tail=
+2016/06/24 21:17:13 ClassMemberCompletionExecutor.complete_fields: output=** fields list **
+> 
+2016/06/24 21:17:13 ClassMemberCompletionExecutor.parse_fields: lines = > 
+2016/06/24 21:17:13 ClassMemberCompletionExecutor.complete_fields: fields=[
+2016/06/24 21:17:13 ClassMemberCompletionExecutor.handle_completion: fields=[
+2016/06/24 21:17:13 ClassMemberCompletionExecutor.complete_methods: tail=
+2016/06/24 21:17:13 ClassMemberCompletionExecutor.complete_methods: output=** methods list **
+org.jboss.samples.webservices.HelloWorld <init>()
+org.jboss.samples.webservices.HelloWorld sayHello(java.lang.String)
+java.lang.Object <init>()
+java.lang.Object registerNatives()
+java.lang.Object getClass()
+java.lang.Object hashCode()
+java.lang.Object equals(java.lang.Object)
+java.lang.Object clone()
+java.lang.Object toString()
+java.lang.Object notify()
+java.lang.Object notifyAll()
+java.lang.Object wait(long)
+java.lang.Object wait(long, int)
+java.lang.Object wait()
+java.lang.Object finalize()
+java.lang.Object <clinit>()
+> 
+2016/06/24 21:17:13 ClassMemberCompletionExecutor.parse_methods: lines = org.jboss.samples.webservices.HelloWorld <init>(),org.jboss.samples.webservices.HelloWorld sayHello(java.lang.String),java.lang.Object <init>(),java.lang.Object registerNatives(),java.lang.Object getClass(),java.lang.Object hashCode(),java.lang.Object equals(java.lang.Object),java.lang.Object clone(),java.lang.Object toString(),java.lang.Object notify(),java.lang.Object notifyAll(),java.lang.Object wait(long),java.lang.Object wait(long, int),java.lang.Object wait(),java.lang.Object finalize(),java.lang.Object <clinit>(),> 
+2016/06/24 21:17:13 ClassMemberCompletionExecutor.complete_methods: methods=[<init>(),sayHello(java.lang.String),<init>(),registerNatives(),getClass(),hashCode(),equals(java.lang.Object),clone(),toString(),notify(),notifyAll(),wait(long),wait(long,,wait(),finalize(),<clinit>()
+2016/06/24 21:17:13 ClassMemberCompletionExecutor.handle_completion: len(request.completions)=17
+2016/06/24 21:17:13 BreakPointManager.activate: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+> 
+2016/06/24 21:17:13 BreakPointManager.activate: location = org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:17:13 BreakPointManager.activate: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)\r\n> 
+2016/06/24 21:17:16 logit: COMPLETION 'stop in org.jboss.samples.webservices.HelloWorld.s\ts\t'
+2016/06/24 21:17:16 BreakPointerManager.extract_breakpoint: line=> 
+2016/06/24 21:17:16 BreakPointerManager.extract_breakpoint: m.group(1)=None
+2016/06/24 21:17:16 BreakPointerManager.extract_breakpoint: line=	breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:17:16 BreakPointerManager.extract_breakpoint: m.group(1)=org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:17:16 BreakPointerManager.parse_clear: vars=org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:17:16 BreakPointerManager.deactivate: bread points=[org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)]
+2016/06/24 21:17:16 BreakPointerManager.deactivate: clear for each bp output=Removed: breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+> 
+2016/06/24 21:17:16 CompletionRequest.__init__: line=stop in org.jboss.samples.webservices.HelloWorld.s
+2016/06/24 21:17:16 CompletionRequest.__init__: prefix=s
+2016/06/24 21:17:16 CompletionRequest.__init__: completions=[]
+2016/06/24 21:17:16 get_tokes: ["stop", "in", "org.jboss.samples.webservices.HelloWorld.s"]
+2016/06/24 21:17:16 CompletionRequest.__init__: tokens=[stop, in, org.jboss.samples.webservices.HelloWorld.s]
+2016/06/24 21:17:16 CompletionRequest.__init__: len(tokens)=3
+2016/06/24 21:17:16 ClassMemberCompletionExecutor.handle_completion: request.completions=[
+2016/06/24 21:17:16 ClassMemberCompletionExecutor.parse_last_token: | org.jboss.samples.webservices.HelloWorld | s |
+2016/06/24 21:17:16 ClassMemberCompetionExecutor.do_complition: base_name=org.jboss.samples.webservices.HelloWorld tail=s paren=
+2016/06/24 21:17:16 is_class_name: output=Class: org.jboss.samples.webservices.HelloWorld
+extends: java.lang.Object
+subclass: org.jboss.samples.webservices.HelloWorld$$$view4
+nested: org.jboss.samples.webservices.HelloWorld$$$view4
+> 
+2016/06/24 21:17:16 ClassMemberCompetionExecutor.do_complition: class_name=org.jboss.samples.webservices.HelloWorld
+2016/06/24 21:17:16 ClassMemberCompletionExecutor.complete_fields: tail=s
+2016/06/24 21:17:16 ClassMemberCompletionExecutor.complete_fields: output=** fields list **
+> 
+2016/06/24 21:17:16 ClassMemberCompletionExecutor.parse_fields: lines = > 
+2016/06/24 21:17:16 ClassMemberCompletionExecutor.complete_fields: fields=[
+2016/06/24 21:17:16 ClassMemberCompletionExecutor.handle_completion: fields=[
+2016/06/24 21:17:16 ClassMemberCompletionExecutor.complete_methods: tail=s
+2016/06/24 21:17:16 ClassMemberCompletionExecutor.complete_methods: output=** methods list **
+org.jboss.samples.webservices.HelloWorld <init>()
+org.jboss.samples.webservices.HelloWorld sayHello(java.lang.String)
+java.lang.Object <init>()
+java.lang.Object registerNatives()
+java.lang.Object getClass()
+java.lang.Object hashCode()
+java.lang.Object equals(java.lang.Object)
+java.lang.Object clone()
+java.lang.Object toString()
+java.lang.Object notify()
+java.lang.Object notifyAll()
+java.lang.Object wait(long)
+java.lang.Object wait(long, int)
+java.lang.Object wait()
+java.lang.Object finalize()
+java.lang.Object <clinit>()
+> 
+2016/06/24 21:17:16 ClassMemberCompletionExecutor.parse_methods: lines = org.jboss.samples.webservices.HelloWorld <init>(),org.jboss.samples.webservices.HelloWorld sayHello(java.lang.String),java.lang.Object <init>(),java.lang.Object registerNatives(),java.lang.Object getClass(),java.lang.Object hashCode(),java.lang.Object equals(java.lang.Object),java.lang.Object clone(),java.lang.Object toString(),java.lang.Object notify(),java.lang.Object notifyAll(),java.lang.Object wait(long),java.lang.Object wait(long, int),java.lang.Object wait(),java.lang.Object finalize(),java.lang.Object <clinit>(),> 
+2016/06/24 21:17:16 ClassMemberCompletionExecutor.complete_methods: methods=[<init>(),sayHello(java.lang.String),<init>(),registerNatives(),getClass(),hashCode(),equals(java.lang.Object),clone(),toString(),notify(),notifyAll(),wait(long),wait(long,,wait(),finalize(),<clinit>()
+2016/06/24 21:17:16 ClassMemberCompletionExecutor.handle_completion: len(request.completions)=2
+2016/06/24 21:17:16 BreakPointManager.activate: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+> 
+2016/06/24 21:17:16 BreakPointManager.activate: location = org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:17:16 BreakPointManager.activate: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)\r\n> 
+2016/06/24 21:17:17 logit: HISTORY    'stop in org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String) '
+2016/06/24 21:17:17 logit: INPUT      'stop in org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String) '
+2016/06/24 21:17:17 logit: OUTPUT     'stop in org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String) \r\n'
+2016/06/24 21:17:17 EnhancedClearCommandExecutor.handle_output: output = 
+2016/06/24 21:17:17 logit: OUTPUT     'Set breakpoint org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String)\r\n'
+2016/06/24 21:17:17 EnhancedClearCommandExecutor.handle_output: output = Set breakpoint org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String)
+
+2016/06/24 21:17:17 logit: OUTPUT     '> '
+2016/06/24 21:17:17 EnhancedClearCommandExecutor.handle_output: output = > 
+2016/06/24 21:17:17 logit: PROMPT     '> '
+2016/06/24 21:17:17 prompt_handler: prompt=|> |
+2016/06/24 21:17:17 EnhancedClearCommandExecutor.handle_prompt: output = Set breakpoint org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String)
+
+2016/06/24 21:17:17 ViewFileCommandExecutor.handle_prompt: output = Set breakpoint org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String)
+
+2016/06/24 21:17:17 ConditionalBreakpointExecutor.get_breakpoint_location_at_line: output = Set breakpoint org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String)
+
+2016/06/24 21:17:24 logit: OUTPUT     '\r\nBreakpoint hit: '
+2016/06/24 21:17:24 EnhancedClearCommandExecutor.handle_output: output = 
+Breakpoint hit: 
+2016/06/24 21:17:24 logit: PROMPT     'Breakpoint hit: '
+2016/06/24 21:17:24 prompt_handler: prompt=|Breakpoint hit: |
+2016/06/24 21:17:24 EnhancedClearCommandExecutor.handle_prompt: output = Set breakpoint org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String)
+
+
+2016/06/24 21:17:24 ViewFileCommandExecutor.handle_prompt: output = Set breakpoint org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String)
+
+
+2016/06/24 21:17:24 ConditionalBreakpointExecutor.get_breakpoint_location_at_line: output = Set breakpoint org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String)
+
+
+2016/06/24 21:17:24 logit: OUTPUT     '"thread=http-127.0.0.1:8080-1", org.jboss.samples.webservices.HelloWorld.sayHello(), line=11 bci=0'
+2016/06/24 21:17:24 EnhancedClearCommandExecutor.handle_output: output = "thread=http-127.0.0.1:8080-1", org.jboss.samples.webservices.HelloWorld.sayHello(), line=11 bci=0
+2016/06/24 21:17:24 logit: OUTPUT     '\r\n'
+2016/06/24 21:17:24 EnhancedClearCommandExecutor.handle_output: output = 
+
+2016/06/24 21:17:24 logit: OUTPUT     '\r\nhttp-127.0.0.1:8080-1[1] '
+2016/06/24 21:17:24 EnhancedClearCommandExecutor.handle_output: output = 
+http-127.0.0.1:8080-1[1] 
+2016/06/24 21:17:24 logit: PROMPT     'http-127.0.0.1:8080-1[1] '
+2016/06/24 21:17:24 prompt_handler: prompt=|http-127.0.0.1:8080-1[1] |
+2016/06/24 21:17:24 EnhancedClearCommandExecutor.handle_prompt: output = Set breakpoint org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String)
+
+"thread=http-127.0.0.1:8080-1", org.jboss.samples.webservices.HelloWorld.sayHello(), line=11 bci=0
+
+
+2016/06/24 21:17:24 ViewFileCommandExecutor.handle_prompt: output = Set breakpoint org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String)
+
+"thread=http-127.0.0.1:8080-1", org.jboss.samples.webservices.HelloWorld.sayHello(), line=11 bci=0
+
+
+2016/06/24 21:17:24 ConditionalBreakpointExecutor.get_breakpoint_location_at_line: output = Set breakpoint org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String)
+
+"thread=http-127.0.0.1:8080-1", org.jboss.samples.webservices.HelloWorld.sayHello(), line=11 bci=0
+
+
+2016/06/24 21:17:31 logit: HISTORY    'w'
+2016/06/24 21:17:31 logit: INPUT      'w'
+2016/06/24 21:17:31 logit: OUTPUT     'where\r\n'
+2016/06/24 21:17:31 EnhancedClearCommandExecutor.handle_output: output = 
+2016/06/24 21:17:31 logit: OUTPUT     '  [1] org.jboss.samples.webservices.HelloWorld.sayHello (HelloWorld.java:11)\r\n  [2] sun.reflect.NativeMethodAccessorImpl.invoke0 (native method)\r\n  [3] sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)\r\n'
+2016/06/24 21:17:31 EnhancedClearCommandExecutor.handle_output: output =   [1] org.jboss.samples.webservices.HelloWorld.sayHello (HelloWorld.java:11)
+  [2] sun.reflect.NativeMethodAccessorImpl.invoke0 (native method)
+  [3] sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+
+2016/06/24 21:17:31 logit: OUTPUT     '  [4] sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)\r\n  [5] java.lang.reflect.Method.invoke (Method.java:497)\r\n  [6] org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation (ManagedReferenceMethodInterceptor.java:52)\r\n'
+2016/06/24 21:17:31 EnhancedClearCommandExecutor.handle_output: output =   [4] sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+  [5] java.lang.reflect.Method.invoke (Method.java:497)
+  [6] org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation (ManagedReferenceMethodInterceptor.java:52)
+
+2016/06/24 21:17:31 logit: OUTPUT     '  [7] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)\r\n  [8] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)\r\n  [9] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)\r\n  [10] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)\r\n  [11] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)\r\n'
+2016/06/24 21:17:31 EnhancedClearCommandExecutor.handle_output: output =   [7] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [8] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)
+  [9] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)
+  [10] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [11] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)
+
+2016/06/24 21:17:31 logit: OUTPUT     '  [12] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)\r\n  [13] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)\r\n  [14] org.jboss.invocation.InitialInterceptor.processInvocation (InitialInterceptor.java:21)\r\n  [15] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)\r\n'
+2016/06/24 21:17:31 EnhancedClearCommandExecutor.handle_output: output =   [12] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)
+  [13] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [14] org.jboss.invocation.InitialInterceptor.processInvocation (InitialInterceptor.java:21)
+  [15] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+
+2016/06/24 21:17:31 logit: OUTPUT     '  [16] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)\r\n  [17] org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation (ComponentDispatcherInterceptor.java:53)\r\n  [18] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)\r\n  [19] org.jboss.as.webservices.deployers.WSComponentInstanceAssociationInterceptor.processInvocation (WSComponentInstanceAssociationInterceptor.java:49)\r\n  [20] org.jboss.invocation.Intercepto'
+2016/06/24 21:17:31 EnhancedClearCommandExecutor.handle_output: output =   [16] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [17] org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation (ComponentDispatcherInterceptor.java:53)
+  [18] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [19] org.jboss.as.webservices.deployers.WSComponentInstanceAssociationInterceptor.processInvocation (WSComponentInstanceAssociationInterceptor.java:49)
+  [20] org.jboss.invocation.Intercepto
+2016/06/24 21:17:31 logit: OUTPUT     'rContext.proceed (InterceptorContext.java:288)\r\n  [21] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)\r\n  [22] org.jboss.as.ee.component.ViewService$View.invoke (ViewService.java:185)\r\n  [23] org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke (AbstractInvocationHandler.java:129)\r\n'
+2016/06/24 21:17:31 EnhancedClearCommandExecutor.handle_output: output = rContext.proceed (InterceptorContext.java:288)
+  [21] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [22] org.jboss.as.ee.component.ViewService$View.invoke (ViewService.java:185)
+  [23] org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke (AbstractInvocationHandler.java:129)
+
+2016/06/24 21:17:31 logit: OUTPUT     '  [24] org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation (JBossWSInvoker.java:177)\r\n'
+2016/06/24 21:17:31 EnhancedClearCommandExecutor.handle_output: output =   [24] org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation (JBossWSInvoker.java:177)
+
+2016/06/24 21:17:31 logit: OUTPUT     '  [25] org.apache.cxf.service.invoker.AbstractInvoker.invoke (AbstractInvoker.java:104)\r\n'
+2016/06/24 21:17:31 EnhancedClearCommandExecutor.handle_output: output =   [25] org.apache.cxf.service.invoker.AbstractInvoker.invoke (AbstractInvoker.java:104)
+
+2016/06/24 21:17:31 logit: OUTPUT     '  [26] org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke (AbstractJAXWSMethodInvoker.java:237)\r\n  [27] org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke (JAXWSMethodInvoker.java:69)\r\n  [28] org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke (JBossWSInvoker.java:146)\r\n'
+2016/06/24 21:17:31 EnhancedClearCommandExecutor.handle_output: output =   [26] org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke (AbstractJAXWSMethodInvoker.java:237)
+  [27] org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke (JAXWSMethodInvoker.java:69)
+  [28] org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke (JBossWSInvoker.java:146)
+
+2016/06/24 21:17:31 logit: OUTPUT     '  [29] org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run (ServiceInvokerInterceptor.java:58)\r\n  [30] java.util.concurrent.Executors$RunnableAdapter.call (Executors.java:511)\r\n'
+2016/06/24 21:17:31 EnhancedClearCommandExecutor.handle_output: output =   [29] org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run (ServiceInvokerInterceptor.java:58)
+  [30] java.util.concurrent.Executors$RunnableAdapter.call (Executors.java:511)
+
+2016/06/24 21:17:31 logit: OUTPUT     '  [31] java.util.concurrent.FutureTask.run (FutureTask.java:266)\r\n  [32] org.apache.cxf.workqueue.SynchronousExecutor.execute (SynchronousExecutor.java:37)\r\n  [33] org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage (ServiceInvokerInterceptor.java:107)\r\n'
+2016/06/24 21:17:31 EnhancedClearCommandExecutor.handle_output: output =   [31] java.util.concurrent.FutureTask.run (FutureTask.java:266)
+  [32] org.apache.cxf.workqueue.SynchronousExecutor.execute (SynchronousExecutor.java:37)
+  [33] org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage (ServiceInvokerInterceptor.java:107)
+
+2016/06/24 21:17:31 logit: OUTPUT     '  [34] org.apache.cxf.phase.PhaseInterceptorChain.doIntercept (PhaseInterceptorChain.java:272)\r\n'
+2016/06/24 21:17:31 EnhancedClearCommandExecutor.handle_output: output =   [34] org.apache.cxf.phase.PhaseInterceptorChain.doIntercept (PhaseInterceptorChain.java:272)
+
+2016/06/24 21:17:31 logit: OUTPUT     '  [35] org.apache.cxf.transport.ChainInitiationObserver.onMessage (ChainInitiationObserver.java:121)\r\n  [36] org.apache.cxf.transport.http.AbstractHTTPDestination.invoke (AbstractHTTPDestination.java:249)\r\n  [37] org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest (RequestHandlerImpl.java:97)\r\n  [38] org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler (ServletHelper.java:131)\r\n'
+2016/06/24 21:17:31 EnhancedClearCommandExecutor.handle_output: output =   [35] org.apache.cxf.transport.ChainInitiationObserver.onMessage (ChainInitiationObserver.java:121)
+  [36] org.apache.cxf.transport.http.AbstractHTTPDestination.invoke (AbstractHTTPDestination.java:249)
+  [37] org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest (RequestHandlerImpl.java:97)
+  [38] org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler (ServletHelper.java:131)
+
+2016/06/24 21:17:31 logit: OUTPUT     '  [39] org.jboss.wsf.stack.cxf.CXFServletExt.invoke (CXFServletExt.java:88)\r\n  [40] org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest (AbstractHTTPServlet.java:289)\r\n  [41] org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost (AbstractHTTPServlet.java:209)\r\n  [42] javax.servlet.http.HttpServlet.service (HttpServlet.java:754)\r\n  [43] org.jboss.wsf.stack.cxf.CXFServletExt.service (CXFServletExt.java:136)\r\n'
+2016/06/24 21:17:31 EnhancedClearCommandExecutor.handle_output: output =   [39] org.jboss.wsf.stack.cxf.CXFServletExt.invoke (CXFServletExt.java:88)
+  [40] org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest (AbstractHTTPServlet.java:289)
+  [41] org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost (AbstractHTTPServlet.java:209)
+  [42] javax.servlet.http.HttpServlet.service (HttpServlet.java:754)
+  [43] org.jboss.wsf.stack.cxf.CXFServletExt.service (CXFServletExt.java:136)
+
+2016/06/24 21:17:31 logit: OUTPUT     '  [44] org.jboss.wsf.spi.deployment.WSFServlet.service (WSFServlet.java:140)\r\n  [45] javax.servlet.http.HttpServlet.service (HttpServlet.java:847)\r\n  [46] org.apache.catalina.core.ApplicationFilterChain.internalDoFilter (ApplicationFilterChain.java:295)\r\n'
+2016/06/24 21:17:31 EnhancedClearCommandExecutor.handle_output: output =   [44] org.jboss.wsf.spi.deployment.WSFServlet.service (WSFServlet.java:140)
+  [45] javax.servlet.http.HttpServlet.service (HttpServlet.java:847)
+  [46] org.apache.catalina.core.ApplicationFilterChain.internalDoFilter (ApplicationFilterChain.java:295)
+
+2016/06/24 21:17:31 logit: OUTPUT     '  [47] org.apache.catalina.core.ApplicationFilterChain.doFilter (ApplicationFilterChain.java:214)\r\n'
+2016/06/24 21:17:31 EnhancedClearCommandExecutor.handle_output: output =   [47] org.apache.catalina.core.ApplicationFilterChain.doFilter (ApplicationFilterChain.java:214)
+
+2016/06/24 21:17:31 logit: OUTPUT     '  [48] org.apache.catalina.core.StandardWrapperValve.invoke (StandardWrapperValve.java:231)'
+2016/06/24 21:17:31 EnhancedClearCommandExecutor.handle_output: output =   [48] org.apache.catalina.core.StandardWrapperValve.invoke (StandardWrapperValve.java:231)
+2016/06/24 21:17:31 logit: OUTPUT     '\r\n  [49] org.apache.catalina.core.StandardContextValve.invoke (StandardContextValve.java:149)\r\n'
+2016/06/24 21:17:31 EnhancedClearCommandExecutor.handle_output: output = 
+  [49] org.apache.catalina.core.StandardContextValve.invoke (StandardContextValve.java:149)
+
+2016/06/24 21:17:31 logit: OUTPUT     '  [50] org.jboss.as.web.security.SecurityContextAssociationValve.invoke (SecurityContextAssociationValve.java:169)\r\n  [51] org.apache.catalina.core.StandardHostValve.invoke (StandardHostValve.java:150)\r\n  [52] org.apache.catalina.valves.ErrorReportValve.invoke (ErrorReportValve.java:97)\r\n  [53] org.apache.catalina.core.StandardEngineValve.invoke (StandardEngineValve.java:102)\r\n'
+2016/06/24 21:17:31 EnhancedClearCommandExecutor.handle_output: output =   [50] org.jboss.as.web.security.SecurityContextAssociationValve.invoke (SecurityContextAssociationValve.java:169)
+  [51] org.apache.catalina.core.StandardHostValve.invoke (StandardHostValve.java:150)
+  [52] org.apache.catalina.valves.ErrorReportValve.invoke (ErrorReportValve.java:97)
+  [53] org.apache.catalina.core.StandardEngineValve.invoke (StandardEngineValve.java:102)
+
+2016/06/24 21:17:31 logit: OUTPUT     '  [54] org.apache.catalina.connector.CoyoteAdapter.service (CoyoteAdapter.java:344)\r\n  [55] org.apache.coyote.http11.Http11Processor.process (Http11Processor.java:854)\r\n'
+2016/06/24 21:17:31 EnhancedClearCommandExecutor.handle_output: output =   [54] org.apache.catalina.connector.CoyoteAdapter.service (CoyoteAdapter.java:344)
+  [55] org.apache.coyote.http11.Http11Processor.process (Http11Processor.java:854)
+
+2016/06/24 21:17:31 logit: OUTPUT     '  [56] org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process (Http11Protocol.java:654)\r\n  [57] org.apache.tomcat.util.net.JIoEndpoint$Worker.run (JIoEndpoint.java:926)\r\n'
+2016/06/24 21:17:31 EnhancedClearCommandExecutor.handle_output: output =   [56] org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process (Http11Protocol.java:654)
+  [57] org.apache.tomcat.util.net.JIoEndpoint$Worker.run (JIoEndpoint.java:926)
+
+2016/06/24 21:17:31 logit: OUTPUT     '  [58] java.lang.Thread.run (Thread.java:745)\r\nhttp-127.0.0.1:8080-1[1] '
+2016/06/24 21:17:31 EnhancedClearCommandExecutor.handle_output: output =   [58] java.lang.Thread.run (Thread.java:745)
+http-127.0.0.1:8080-1[1] 
+2016/06/24 21:17:31 logit: PROMPT     'http-127.0.0.1:8080-1[1] '
+2016/06/24 21:17:31 prompt_handler: prompt=|http-127.0.0.1:8080-1[1] |
+2016/06/24 21:17:31 EnhancedClearCommandExecutor.handle_prompt: output =   [1] org.jboss.samples.webservices.HelloWorld.sayHello (HelloWorld.java:11)
+  [2] sun.reflect.NativeMethodAccessorImpl.invoke0 (native method)
+  [3] sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+  [4] sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+  [5] java.lang.reflect.Method.invoke (Method.java:497)
+  [6] org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation (ManagedReferenceMethodInterceptor.java:52)
+  [7] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [8] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)
+  [9] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)
+  [10] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [11] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)
+  [12] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)
+  [13] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [14] org.jboss.invocation.InitialInterceptor.processInvocation (InitialInterceptor.java:21)
+  [15] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [16] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [17] org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation (ComponentDispatcherInterceptor.java:53)
+  [18] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [19] org.jboss.as.webservices.deployers.WSComponentInstanceAssociationInterceptor.processInvocation (WSComponentInstanceAssociationInterceptor.java:49)
+  [20] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [21] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [22] org.jboss.as.ee.component.ViewService$View.invoke (ViewService.java:185)
+  [23] org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke (AbstractInvocationHandler.java:129)
+  [24] org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation (JBossWSInvoker.java:177)
+  [25] org.apache.cxf.service.invoker.AbstractInvoker.invoke (AbstractInvoker.java:104)
+  [26] org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke (AbstractJAXWSMethodInvoker.java:237)
+  [27] org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke (JAXWSMethodInvoker.java:69)
+  [28] org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke (JBossWSInvoker.java:146)
+  [29] org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run (ServiceInvokerInterceptor.java:58)
+  [30] java.util.concurrent.Executors$RunnableAdapter.call (Executors.java:511)
+  [31] java.util.concurrent.FutureTask.run (FutureTask.java:266)
+  [32] org.apache.cxf.workqueue.SynchronousExecutor.execute (SynchronousExecutor.java:37)
+  [33] org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage (ServiceInvokerInterceptor.java:107)
+  [34] org.apache.cxf.phase.PhaseInterceptorChain.doIntercept (PhaseInterceptorChain.java:272)
+  [35] org.apache.cxf.transport.ChainInitiationObserver.onMessage (ChainInitiationObserver.java:121)
+  [36] org.apache.cxf.transport.http.AbstractHTTPDestination.invoke (AbstractHTTPDestination.java:249)
+  [37] org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest (RequestHandlerImpl.java:97)
+  [38] org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler (ServletHelper.java:131)
+  [39] org.jboss.wsf.stack.cxf.CXFServletExt.invoke (CXFServletExt.java:88)
+  [40] org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest (AbstractHTTPServlet.java:289)
+  [41] org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost (AbstractHTTPServlet.java:209)
+  [42] javax.servlet.http.HttpServlet.service (HttpServlet.java:754)
+  [43] org.jboss.wsf.stack.cxf.CXFServletExt.service (CXFServletExt.java:136)
+  [44] org.jboss.wsf.spi.deployment.WSFServlet.service (WSFServlet.java:140)
+  [45] javax.servlet.http.HttpServlet.service (HttpServlet.java:847)
+  [46] org.apache.catalina.core.ApplicationFilterChain.internalDoFilter (ApplicationFilterChain.java:295)
+  [47] org.apache.catalina.core.ApplicationFilterChain.doFilter (ApplicationFilterChain.java:214)
+  [48] org.apache.catalina.core.StandardWrapperValve.invoke (StandardWrapperValve.java:231)
+  [49] org.apache.catalina.core.StandardContextValve.invoke (StandardContextValve.java:149)
+  [50] org.jboss.as.web.security.SecurityContextAssociationValve.invoke (SecurityContextAssociationValve.java:169)
+  [51] org.apache.catalina.core.StandardHostValve.invoke (StandardHostValve.java:150)
+  [52] org.apache.catalina.valves.ErrorReportValve.invoke (ErrorReportValve.java:97)
+  [53] org.apache.catalina.core.StandardEngineValve.invoke (StandardEngineValve.java:102)
+  [54] org.apache.catalina.connector.CoyoteAdapter.service (CoyoteAdapter.java:344)
+  [55] org.apache.coyote.http11.Http11Processor.process (Http11Processor.java:854)
+  [56] org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process (Http11Protocol.java:654)
+  [57] org.apache.tomcat.util.net.JIoEndpoint$Worker.run (JIoEndpoint.java:926)
+  [58] java.lang.Thread.run (Thread.java:745)
+
+2016/06/24 21:17:31 ViewFileCommandExecutor.handle_prompt: output =   [1] org.jboss.samples.webservices.HelloWorld.sayHello (HelloWorld.java:11)
+  [2] sun.reflect.NativeMethodAccessorImpl.invoke0 (native method)
+  [3] sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+  [4] sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+  [5] java.lang.reflect.Method.invoke (Method.java:497)
+  [6] org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation (ManagedReferenceMethodInterceptor.java:52)
+  [7] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [8] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)
+  [9] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)
+  [10] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [11] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)
+  [12] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)
+  [13] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [14] org.jboss.invocation.InitialInterceptor.processInvocation (InitialInterceptor.java:21)
+  [15] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [16] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [17] org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation (ComponentDispatcherInterceptor.java:53)
+  [18] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [19] org.jboss.as.webservices.deployers.WSComponentInstanceAssociationInterceptor.processInvocation (WSComponentInstanceAssociationInterceptor.java:49)
+  [20] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [21] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [22] org.jboss.as.ee.component.ViewService$View.invoke (ViewService.java:185)
+  [23] org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke (AbstractInvocationHandler.java:129)
+  [24] org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation (JBossWSInvoker.java:177)
+  [25] org.apache.cxf.service.invoker.AbstractInvoker.invoke (AbstractInvoker.java:104)
+  [26] org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke (AbstractJAXWSMethodInvoker.java:237)
+  [27] org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke (JAXWSMethodInvoker.java:69)
+  [28] org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke (JBossWSInvoker.java:146)
+  [29] org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run (ServiceInvokerInterceptor.java:58)
+  [30] java.util.concurrent.Executors$RunnableAdapter.call (Executors.java:511)
+  [31] java.util.concurrent.FutureTask.run (FutureTask.java:266)
+  [32] org.apache.cxf.workqueue.SynchronousExecutor.execute (SynchronousExecutor.java:37)
+  [33] org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage (ServiceInvokerInterceptor.java:107)
+  [34] org.apache.cxf.phase.PhaseInterceptorChain.doIntercept (PhaseInterceptorChain.java:272)
+  [35] org.apache.cxf.transport.ChainInitiationObserver.onMessage (ChainInitiationObserver.java:121)
+  [36] org.apache.cxf.transport.http.AbstractHTTPDestination.invoke (AbstractHTTPDestination.java:249)
+  [37] org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest (RequestHandlerImpl.java:97)
+  [38] org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler (ServletHelper.java:131)
+  [39] org.jboss.wsf.stack.cxf.CXFServletExt.invoke (CXFServletExt.java:88)
+  [40] org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest (AbstractHTTPServlet.java:289)
+  [41] org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost (AbstractHTTPServlet.java:209)
+  [42] javax.servlet.http.HttpServlet.service (HttpServlet.java:754)
+  [43] org.jboss.wsf.stack.cxf.CXFServletExt.service (CXFServletExt.java:136)
+  [44] org.jboss.wsf.spi.deployment.WSFServlet.service (WSFServlet.java:140)
+  [45] javax.servlet.http.HttpServlet.service (HttpServlet.java:847)
+  [46] org.apache.catalina.core.ApplicationFilterChain.internalDoFilter (ApplicationFilterChain.java:295)
+  [47] org.apache.catalina.core.ApplicationFilterChain.doFilter (ApplicationFilterChain.java:214)
+  [48] org.apache.catalina.core.StandardWrapperValve.invoke (StandardWrapperValve.java:231)
+  [49] org.apache.catalina.core.StandardContextValve.invoke (StandardContextValve.java:149)
+  [50] org.jboss.as.web.security.SecurityContextAssociationValve.invoke (SecurityContextAssociationValve.java:169)
+  [51] org.apache.catalina.core.StandardHostValve.invoke (StandardHostValve.java:150)
+  [52] org.apache.catalina.valves.ErrorReportValve.invoke (ErrorReportValve.java:97)
+  [53] org.apache.catalina.core.StandardEngineValve.invoke (StandardEngineValve.java:102)
+  [54] org.apache.catalina.connector.CoyoteAdapter.service (CoyoteAdapter.java:344)
+  [55] org.apache.coyote.http11.Http11Processor.process (Http11Processor.java:854)
+  [56] org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process (Http11Protocol.java:654)
+  [57] org.apache.tomcat.util.net.JIoEndpoint$Worker.run (JIoEndpoint.java:926)
+  [58] java.lang.Thread.run (Thread.java:745)
+
+2016/06/24 21:17:31 ConditionalBreakpointExecutor.get_breakpoint_location_at_line: output =   [1] org.jboss.samples.webservices.HelloWorld.sayHello (HelloWorld.java:11)
+  [2] sun.reflect.NativeMethodAccessorImpl.invoke0 (native method)
+  [3] sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+  [4] sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+  [5] java.lang.reflect.Method.invoke (Method.java:497)
+  [6] org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation (ManagedReferenceMethodInterceptor.java:52)
+  [7] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [8] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)
+  [9] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)
+  [10] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [11] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)
+  [12] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)
+  [13] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [14] org.jboss.invocation.InitialInterceptor.processInvocation (InitialInterceptor.java:21)
+  [15] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [16] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [17] org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation (ComponentDispatcherInterceptor.java:53)
+  [18] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [19] org.jboss.as.webservices.deployers.WSComponentInstanceAssociationInterceptor.processInvocation (WSComponentInstanceAssociationInterceptor.java:49)
+  [20] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [21] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [22] org.jboss.as.ee.component.ViewService$View.invoke (ViewService.java:185)
+  [23] org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke (AbstractInvocationHandler.java:129)
+  [24] org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation (JBossWSInvoker.java:177)
+  [25] org.apache.cxf.service.invoker.AbstractInvoker.invoke (AbstractInvoker.java:104)
+  [26] org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke (AbstractJAXWSMethodInvoker.java:237)
+  [27] org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke (JAXWSMethodInvoker.java:69)
+  [28] org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke (JBossWSInvoker.java:146)
+  [29] org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run (ServiceInvokerInterceptor.java:58)
+  [30] java.util.concurrent.Executors$RunnableAdapter.call (Executors.java:511)
+  [31] java.util.concurrent.FutureTask.run (FutureTask.java:266)
+  [32] org.apache.cxf.workqueue.SynchronousExecutor.execute (SynchronousExecutor.java:37)
+  [33] org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage (ServiceInvokerInterceptor.java:107)
+  [34] org.apache.cxf.phase.PhaseInterceptorChain.doIntercept (PhaseInterceptorChain.java:272)
+  [35] org.apache.cxf.transport.ChainInitiationObserver.onMessage (ChainInitiationObserver.java:121)
+  [36] org.apache.cxf.transport.http.AbstractHTTPDestination.invoke (AbstractHTTPDestination.java:249)
+  [37] org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest (RequestHandlerImpl.java:97)
+  [38] org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler (ServletHelper.java:131)
+  [39] org.jboss.wsf.stack.cxf.CXFServletExt.invoke (CXFServletExt.java:88)
+  [40] org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest (AbstractHTTPServlet.java:289)
+  [41] org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost (AbstractHTTPServlet.java:209)
+  [42] javax.servlet.http.HttpServlet.service (HttpServlet.java:754)
+  [43] org.jboss.wsf.stack.cxf.CXFServletExt.service (CXFServletExt.java:136)
+  [44] org.jboss.wsf.spi.deployment.WSFServlet.service (WSFServlet.java:140)
+  [45] javax.servlet.http.HttpServlet.service (HttpServlet.java:847)
+  [46] org.apache.catalina.core.ApplicationFilterChain.internalDoFilter (ApplicationFilterChain.java:295)
+  [47] org.apache.catalina.core.ApplicationFilterChain.doFilter (ApplicationFilterChain.java:214)
+  [48] org.apache.catalina.core.StandardWrapperValve.invoke (StandardWrapperValve.java:231)
+  [49] org.apache.catalina.core.StandardContextValve.invoke (StandardContextValve.java:149)
+  [50] org.jboss.as.web.security.SecurityContextAssociationValve.invoke (SecurityContextAssociationValve.java:169)
+  [51] org.apache.catalina.core.StandardHostValve.invoke (StandardHostValve.java:150)
+  [52] org.apache.catalina.valves.ErrorReportValve.invoke (ErrorReportValve.java:97)
+  [53] org.apache.catalina.core.StandardEngineValve.invoke (StandardEngineValve.java:102)
+  [54] org.apache.catalina.connector.CoyoteAdapter.service (CoyoteAdapter.java:344)
+  [55] org.apache.coyote.http11.Http11Processor.process (Http11Processor.java:854)
+  [56] org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process (Http11Protocol.java:654)
+  [57] org.apache.tomcat.util.net.JIoEndpoint$Worker.run (JIoEndpoint.java:926)
+  [58] java.lang.Thread.run (Thread.java:745)
+
+2016/06/24 21:31:09 logit: HISTORY    'c'
+2016/06/24 21:31:09 logit: INPUT      'c'
+2016/06/24 21:31:09 logit: OUTPUT     'cont\r\n'
+2016/06/24 21:31:09 EnhancedClearCommandExecutor.handle_output: output = 
+2016/06/24 21:31:09 logit: OUTPUT     '> '
+2016/06/24 21:31:09 EnhancedClearCommandExecutor.handle_output: output = > 
+2016/06/24 21:31:09 logit: PROMPT     '> '
+2016/06/24 21:31:09 prompt_handler: prompt=|> |
+2016/06/24 21:31:09 EnhancedClearCommandExecutor.handle_prompt: output = 
+2016/06/24 21:31:09 ViewFileCommandExecutor.handle_prompt: output = 
+2016/06/24 21:31:09 ConditionalBreakpointExecutor.get_breakpoint_location_at_line: output = 
+2016/06/24 21:31:09 logit: OUTPUT     '\r\nBreakpoint hit: "thread=http-127.0.0.1:8080-2", org.jboss.samples.webservices.HelloWorld.sayHello(), line=11 bci=0\r\n\r\nhttp-127.0.0.1:8080-2[1] '
+2016/06/24 21:31:09 EnhancedClearCommandExecutor.handle_output: output = 
+Breakpoint hit: "thread=http-127.0.0.1:8080-2", org.jboss.samples.webservices.HelloWorld.sayHello(), line=11 bci=0
+
+http-127.0.0.1:8080-2[1] 
+2016/06/24 21:31:09 logit: PROMPT     'http-127.0.0.1:8080-2[1] '
+2016/06/24 21:31:09 prompt_handler: prompt=|http-127.0.0.1:8080-2[1] |
+2016/06/24 21:31:09 EnhancedClearCommandExecutor.handle_prompt: output = 
+Breakpoint hit: "thread=http-127.0.0.1:8080-2", org.jboss.samples.webservices.HelloWorld.sayHello(), line=11 bci=0
+
+
+2016/06/24 21:31:09 ViewFileCommandExecutor.handle_prompt: output = 
+Breakpoint hit: "thread=http-127.0.0.1:8080-2", org.jboss.samples.webservices.HelloWorld.sayHello(), line=11 bci=0
+
+
+2016/06/24 21:31:09 ViewFileCommandExecutor.handle_prompt: class_method = org.jboss.samples.webservices.HelloWorld.sayHello(): linenum = 11
+2016/06/24 21:31:09 ConditionalBreakpointExecutor.get_breakpoint_location_at_line: output = 
+Breakpoint hit: "thread=http-127.0.0.1:8080-2", org.jboss.samples.webservices.HelloWorld.sayHello(), line=11 bci=0
+
+
+2016/06/24 21:31:09 ConditionalBreakpointExecutor.get_breakpoint_location_at_line: class_method = org.jboss.samples.webservices.HelloWorld.sayHello(): linenum = 11
+2016/06/24 21:31:10 logit: HISTORY    'c'
+2016/06/24 21:31:10 logit: INPUT      'c'
+2016/06/24 21:31:10 logit: OUTPUT     'cont\r\n'
+2016/06/24 21:31:10 EnhancedClearCommandExecutor.handle_output: output = 
+2016/06/24 21:31:10 logit: OUTPUT     '> '
+2016/06/24 21:31:10 EnhancedClearCommandExecutor.handle_output: output = > 
+2016/06/24 21:31:10 logit: PROMPT     '> '
+2016/06/24 21:31:10 prompt_handler: prompt=|> |
+2016/06/24 21:31:10 EnhancedClearCommandExecutor.handle_prompt: output = 
+2016/06/24 21:31:10 ViewFileCommandExecutor.handle_prompt: output = 
+2016/06/24 21:31:10 ConditionalBreakpointExecutor.get_breakpoint_location_at_line: output = 
+2016/06/24 21:31:50 logit: OUTPUT     'Input stream closed.\r\n'
+2016/06/24 21:31:50 EnhancedClearCommandExecutor.handle_output: output = Input stream closed.
+
+2016/06/24 21:31:50 logit: PROMPT     ''
+2016/06/24 21:44:09 rljdb gets started
+
+2016/06/24 21:44:09 logit: OUTPUT     ''
+2016/06/24 21:44:09 EnhancedClearCommandExecutor.handle_output: output = 
+2016/06/24 21:44:09 logit: PROMPT     ''
+2016/06/24 21:44:09 logit: OUTPUT     'Set uncaught java.lang.Throwable'
+2016/06/24 21:44:09 EnhancedClearCommandExecutor.handle_output: output = Set uncaught java.lang.Throwable
+2016/06/24 21:44:09 logit: OUTPUT     '\r\nSet deferred uncaught java.lang.Throwable\r\n'
+2016/06/24 21:44:09 EnhancedClearCommandExecutor.handle_output: output = 
+Set deferred uncaught java.lang.Throwable
+
+2016/06/24 21:44:09 logit: OUTPUT     'Initializing jdb ...\r\n'
+2016/06/24 21:44:09 EnhancedClearCommandExecutor.handle_output: output = Initializing jdb ...
+
+2016/06/24 21:44:09 logit: OUTPUT     '> '
+2016/06/24 21:44:09 EnhancedClearCommandExecutor.handle_output: output = > 
+2016/06/24 21:44:09 logit: PROMPT     '> '
+2016/06/24 21:44:09 BreakPointManager.activate: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+> 
+2016/06/24 21:44:09 BreakPointManager.activate: location = org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)
+2016/06/24 21:44:09 BreakPointManager.activate: output = Set breakpoint org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext)\r\n> 
+2016/06/24 21:44:09 Could not open ./rljdb.sourcepath
+2016/06/24 21:44:09 prompt_handler: prompt=|> |
+2016/06/24 21:44:09 EnhancedClearCommandExecutor.handle_prompt: output = Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+Initializing jdb ...
+
+2016/06/24 21:44:09 ViewFileCommandExecutor.handle_prompt: output = Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+Initializing jdb ...
+
+2016/06/24 21:44:09 ConditionalBreakpointExecutor.get_breakpoint_location_at_line: output = Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+Initializing jdb ...
+
+2016/06/24 21:44:12 logit: HISTORY    'stop in org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String) '
+2016/06/24 21:44:12 logit: INPUT      'stop in org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String) '
+2016/06/24 21:44:12 logit: OUTPUT     'stop in org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String) \r\n'
+2016/06/24 21:44:12 EnhancedClearCommandExecutor.handle_output: output = 
+2016/06/24 21:44:12 logit: PROMPT     ''
+2016/06/24 21:44:12 logit: OUTPUT     'Set breakpoint org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String)'
+2016/06/24 21:44:12 EnhancedClearCommandExecutor.handle_output: output = Set breakpoint org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String)
+2016/06/24 21:44:12 logit: OUTPUT     '\r\n> '
+2016/06/24 21:44:12 EnhancedClearCommandExecutor.handle_output: output = 
+> 
+2016/06/24 21:44:12 logit: PROMPT     '> '
+2016/06/24 21:44:12 prompt_handler: prompt=|> |
+2016/06/24 21:44:12 EnhancedClearCommandExecutor.handle_prompt: output = Set breakpoint org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String)
+
+2016/06/24 21:44:12 ViewFileCommandExecutor.handle_prompt: output = Set breakpoint org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String)
+
+2016/06/24 21:44:12 ConditionalBreakpointExecutor.get_breakpoint_location_at_line: output = Set breakpoint org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String)
+
+2016/06/24 21:44:20 logit: OUTPUT     '\r\n'
+2016/06/24 21:44:20 EnhancedClearCommandExecutor.handle_output: output = 
+
+2016/06/24 21:44:20 logit: OUTPUT     'Breakpoint hit: '
+2016/06/24 21:44:20 EnhancedClearCommandExecutor.handle_output: output = Breakpoint hit: 
+2016/06/24 21:44:20 logit: PROMPT     'Breakpoint hit: '
+2016/06/24 21:44:20 prompt_handler: prompt=|Breakpoint hit: |
+2016/06/24 21:44:20 EnhancedClearCommandExecutor.handle_prompt: output = Set breakpoint org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String)
+
+
+2016/06/24 21:44:20 ViewFileCommandExecutor.handle_prompt: output = Set breakpoint org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String)
+
+
+2016/06/24 21:44:20 ConditionalBreakpointExecutor.get_breakpoint_location_at_line: output = Set breakpoint org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String)
+
+
+2016/06/24 21:44:20 logit: OUTPUT     '"thread=http-127.0.0.1:8080-2", org.jboss.samples.webservices.HelloWorld.sayHello(), line=15 bci=0'
+2016/06/24 21:44:20 EnhancedClearCommandExecutor.handle_output: output = "thread=http-127.0.0.1:8080-2", org.jboss.samples.webservices.HelloWorld.sayHello(), line=15 bci=0
+2016/06/24 21:44:20 logit: OUTPUT     '\r\n\r\nhttp-127.0.0.1:8080-2[1] '
+2016/06/24 21:44:20 EnhancedClearCommandExecutor.handle_output: output = 
+
+http-127.0.0.1:8080-2[1] 
+2016/06/24 21:44:20 logit: PROMPT     'http-127.0.0.1:8080-2[1] '
+2016/06/24 21:44:20 prompt_handler: prompt=|http-127.0.0.1:8080-2[1] |
+2016/06/24 21:44:20 EnhancedClearCommandExecutor.handle_prompt: output = Set breakpoint org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String)
+
+"thread=http-127.0.0.1:8080-2", org.jboss.samples.webservices.HelloWorld.sayHello(), line=15 bci=0
+
+
+2016/06/24 21:44:20 ViewFileCommandExecutor.handle_prompt: output = Set breakpoint org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String)
+
+"thread=http-127.0.0.1:8080-2", org.jboss.samples.webservices.HelloWorld.sayHello(), line=15 bci=0
+
+
+2016/06/24 21:44:20 ConditionalBreakpointExecutor.get_breakpoint_location_at_line: output = Set breakpoint org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String)
+
+"thread=http-127.0.0.1:8080-2", org.jboss.samples.webservices.HelloWorld.sayHello(), line=15 bci=0
+
+
+2016/06/24 21:44:25 logit: HISTORY    'w'
+2016/06/24 21:44:25 logit: INPUT      'w'
+2016/06/24 21:44:25 logit: OUTPUT     'where\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output = 
+2016/06/24 21:44:25 logit: OUTPUT     '  [1] org.jboss.samples.webservices.HelloWorld.sayHello (HelloWorld.java:15)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [1] org.jboss.samples.webservices.HelloWorld.sayHello (HelloWorld.java:15)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [2] sun.reflect.NativeMethodAccessorImpl.invoke0 (native method)\r\n  [3] sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [2] sun.reflect.NativeMethodAccessorImpl.invoke0 (native method)
+  [3] sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [4] sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [4] sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [5] java.lang.reflect.Method.invoke (Method.java:497)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [5] java.lang.reflect.Method.invoke (Method.java:497)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [6] org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation (ManagedReferenceMethodInterceptor.java:52)\r\n  [7] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [6] org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation (ManagedReferenceMethodInterceptor.java:52)
+  [7] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+2016/06/24 21:44:25 logit: OUTPUT     '\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output = 
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [8] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)\r\n  [9] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)\r\n  [10] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [8] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)
+  [9] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)
+  [10] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [11] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)\r\n  [12] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)\r\n  [13] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [11] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)
+  [12] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)
+  [13] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [14] org.jboss.invocation.InitialInterceptor.processInvocation (InitialInterceptor.java:21)\r\n  [15] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)\r\n  [16] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [14] org.jboss.invocation.InitialInterceptor.processInvocation (InitialInterceptor.java:21)
+  [15] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [16] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [17] org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation (ComponentDispatcherInterceptor.java:53)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [17] org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation (ComponentDispatcherInterceptor.java:53)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [18] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [18] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [19] org.jboss.as.webservices.deployers.WSComponentInstanceAssociationInterceptor.processInvocation (WSComponentInstanceAssociationInterceptor.java:49)\r\n  [20] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)\r\n  [21] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)\r\n  [22] org.jboss.as.ee.component.ViewService$View.invoke (ViewService.java:185)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [19] org.jboss.as.webservices.deployers.WSComponentInstanceAssociationInterceptor.processInvocation (WSComponentInstanceAssociationInterceptor.java:49)
+  [20] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [21] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [22] org.jboss.as.ee.component.ViewService$View.invoke (ViewService.java:185)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [23] org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke (AbstractInvocationHandler.java:129)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [23] org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke (AbstractInvocationHandler.java:129)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [24] org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation (JBossWSInvoker.java:177)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [24] org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation (JBossWSInvoker.java:177)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [25] org.apache.cxf.service.invoker.AbstractInvoker.invoke (AbstractInvoker.java:104)'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [25] org.apache.cxf.service.invoker.AbstractInvoker.invoke (AbstractInvoker.java:104)
+2016/06/24 21:44:25 logit: OUTPUT     '\r\n  [26] org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke (AbstractJAXWSMethodInvoker.java:237)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output = 
+  [26] org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke (AbstractJAXWSMethodInvoker.java:237)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [27] org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke (JAXWSMethodInvoker.java:69)\r\n  [28] org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke (JBossWSInvoker.java:146)\r\n  [29] org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run (ServiceInvokerInterceptor.java:58)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [27] org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke (JAXWSMethodInvoker.java:69)
+  [28] org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke (JBossWSInvoker.java:146)
+  [29] org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run (ServiceInvokerInterceptor.java:58)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [30] java.util.concurrent.Executors$RunnableAdapter.call (Executors.java:511)\r\n  [31] java.util.concurrent.FutureTask.run (FutureTask.java:266)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [30] java.util.concurrent.Executors$RunnableAdapter.call (Executors.java:511)
+  [31] java.util.concurrent.FutureTask.run (FutureTask.java:266)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [32] org.apache.cxf.workqueue.SynchronousExecutor.execute (SynchronousExecutor.java:37)\r\n  [33] org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage (ServiceInvokerInterceptor.java:107)'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [32] org.apache.cxf.workqueue.SynchronousExecutor.execute (SynchronousExecutor.java:37)
+  [33] org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage (ServiceInvokerInterceptor.java:107)
+2016/06/24 21:44:25 logit: OUTPUT     '\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output = 
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [34] org.apache.cxf.phase.PhaseInterceptorChain.doIntercept (PhaseInterceptorChain.java:272)'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [34] org.apache.cxf.phase.PhaseInterceptorChain.doIntercept (PhaseInterceptorChain.java:272)
+2016/06/24 21:44:25 logit: OUTPUT     '\r\n  [35] org.apache.cxf.transport.ChainInitiationObserver.onMessage (ChainInitiationObserver.java:121)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output = 
+  [35] org.apache.cxf.transport.ChainInitiationObserver.onMessage (ChainInitiationObserver.java:121)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [36] org.apache.cxf.transport.http.AbstractHTTPDestination.invoke (AbstractHTTPDestination.java:249)\r\n  [37] org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest (RequestHandlerImpl.java:97)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [36] org.apache.cxf.transport.http.AbstractHTTPDestination.invoke (AbstractHTTPDestination.java:249)
+  [37] org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest (RequestHandlerImpl.java:97)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [38] org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler (ServletHelper.java:131)\r\n  [39] org.jboss.wsf.stack.cxf.CXFServletExt.invoke (CXFServletExt.java:88)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [38] org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler (ServletHelper.java:131)
+  [39] org.jboss.wsf.stack.cxf.CXFServletExt.invoke (CXFServletExt.java:88)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [40] org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest (AbstractHTTPServlet.java:289)\r\n  [41] org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost (AbstractHTTPServlet.java:209)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [40] org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest (AbstractHTTPServlet.java:289)
+  [41] org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost (AbstractHTTPServlet.java:209)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [42] javax.servlet.http.HttpServlet.service (HttpServlet.java:754)\r\n  [43] org.jboss.wsf.stack.cxf.CXFServletExt.service (CXFServletExt.java:136)\r\n  [44] org.jboss.wsf.spi.deployment.WSFServlet.service (WSFServlet.java:140)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [42] javax.servlet.http.HttpServlet.service (HttpServlet.java:754)
+  [43] org.jboss.wsf.stack.cxf.CXFServletExt.service (CXFServletExt.java:136)
+  [44] org.jboss.wsf.spi.deployment.WSFServlet.service (WSFServlet.java:140)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [45] javax.servlet.http.HttpServlet.service (HttpServlet.java:847)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [45] javax.servlet.http.HttpServlet.service (HttpServlet.java:847)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [46] org.apache.catalina.core.ApplicationFilterChain.internalDoFilter (ApplicationFilterChain.java:295)'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [46] org.apache.catalina.core.ApplicationFilterChain.internalDoFilter (ApplicationFilterChain.java:295)
+2016/06/24 21:44:25 logit: OUTPUT     '\r\n  [47] org.apache.catalina.core.ApplicationFilterChain.doFilter (ApplicationFilterChain.java:214)\r\n  [48] org.apache.catalina.core.StandardWrapperValve.invoke (StandardWrapperValve.java:231)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output = 
+  [47] org.apache.catalina.core.ApplicationFilterChain.doFilter (ApplicationFilterChain.java:214)
+  [48] org.apache.catalina.core.StandardWrapperValve.invoke (StandardWrapperValve.java:231)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [49] org.apache.catalina.core.StandardContextValve.invoke (StandardContextValve.java:149)\r\n  [50] org.apache.catalina.authenticator.AuthenticatorBase.invoke (AuthenticatorBase.java:512)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [49] org.apache.catalina.core.StandardContextValve.invoke (StandardContextValve.java:149)
+  [50] org.apache.catalina.authenticator.AuthenticatorBase.invoke (AuthenticatorBase.java:512)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [51] org.jboss.as.web.security.SecurityContextAssociationValve.invoke (SecurityContextAssociationValve.java:169)\r\n  [52] org.apache.catalina.core.StandardHostValve.invoke (StandardHostValve.java:150)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [51] org.jboss.as.web.security.SecurityContextAssociationValve.invoke (SecurityContextAssociationValve.java:169)
+  [52] org.apache.catalina.core.StandardHostValve.invoke (StandardHostValve.java:150)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [53] org.apache.catalina.valves.ErrorReportValve.invoke (ErrorReportValve.java:97)'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [53] org.apache.catalina.valves.ErrorReportValve.invoke (ErrorReportValve.java:97)
+2016/06/24 21:44:25 logit: OUTPUT     '\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output = 
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [54] org.apache.catalina.core.StandardEngineValve.invoke (StandardEngineValve.java:102)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [54] org.apache.catalina.core.StandardEngineValve.invoke (StandardEngineValve.java:102)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [55] org.apache.catalina.connector.CoyoteAdapter.service (CoyoteAdapter.java:344)\r\n  [56] org.apache.coyote.http11.Http11Processor.process (Http11Processor.java:854)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [55] org.apache.catalina.connector.CoyoteAdapter.service (CoyoteAdapter.java:344)
+  [56] org.apache.coyote.http11.Http11Processor.process (Http11Processor.java:854)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [57] org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process (Http11Protocol.java:654)\r\n  [58] org.apache.tomcat.util.net.JIoEndpoint$Worker.run (JIoEndpoint.java:926)\r\n'
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [57] org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process (Http11Protocol.java:654)
+  [58] org.apache.tomcat.util.net.JIoEndpoint$Worker.run (JIoEndpoint.java:926)
+
+2016/06/24 21:44:25 logit: OUTPUT     '  [59] java.lang.Thread.run (Thread.java:745)\r\nhttp-127.0.0.1:8080-2[1] '
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_output: output =   [59] java.lang.Thread.run (Thread.java:745)
+http-127.0.0.1:8080-2[1] 
+2016/06/24 21:44:25 logit: PROMPT     'http-127.0.0.1:8080-2[1] '
+2016/06/24 21:44:25 prompt_handler: prompt=|http-127.0.0.1:8080-2[1] |
+2016/06/24 21:44:25 EnhancedClearCommandExecutor.handle_prompt: output =   [1] org.jboss.samples.webservices.HelloWorld.sayHello (HelloWorld.java:15)
+  [2] sun.reflect.NativeMethodAccessorImpl.invoke0 (native method)
+  [3] sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+  [4] sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+  [5] java.lang.reflect.Method.invoke (Method.java:497)
+  [6] org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation (ManagedReferenceMethodInterceptor.java:52)
+  [7] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [8] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)
+  [9] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)
+  [10] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [11] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)
+  [12] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)
+  [13] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [14] org.jboss.invocation.InitialInterceptor.processInvocation (InitialInterceptor.java:21)
+  [15] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [16] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [17] org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation (ComponentDispatcherInterceptor.java:53)
+  [18] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [19] org.jboss.as.webservices.deployers.WSComponentInstanceAssociationInterceptor.processInvocation (WSComponentInstanceAssociationInterceptor.java:49)
+  [20] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [21] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [22] org.jboss.as.ee.component.ViewService$View.invoke (ViewService.java:185)
+  [23] org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke (AbstractInvocationHandler.java:129)
+  [24] org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation (JBossWSInvoker.java:177)
+  [25] org.apache.cxf.service.invoker.AbstractInvoker.invoke (AbstractInvoker.java:104)
+  [26] org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke (AbstractJAXWSMethodInvoker.java:237)
+  [27] org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke (JAXWSMethodInvoker.java:69)
+  [28] org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke (JBossWSInvoker.java:146)
+  [29] org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run (ServiceInvokerInterceptor.java:58)
+  [30] java.util.concurrent.Executors$RunnableAdapter.call (Executors.java:511)
+  [31] java.util.concurrent.FutureTask.run (FutureTask.java:266)
+  [32] org.apache.cxf.workqueue.SynchronousExecutor.execute (SynchronousExecutor.java:37)
+  [33] org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage (ServiceInvokerInterceptor.java:107)
+  [34] org.apache.cxf.phase.PhaseInterceptorChain.doIntercept (PhaseInterceptorChain.java:272)
+  [35] org.apache.cxf.transport.ChainInitiationObserver.onMessage (ChainInitiationObserver.java:121)
+  [36] org.apache.cxf.transport.http.AbstractHTTPDestination.invoke (AbstractHTTPDestination.java:249)
+  [37] org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest (RequestHandlerImpl.java:97)
+  [38] org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler (ServletHelper.java:131)
+  [39] org.jboss.wsf.stack.cxf.CXFServletExt.invoke (CXFServletExt.java:88)
+  [40] org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest (AbstractHTTPServlet.java:289)
+  [41] org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost (AbstractHTTPServlet.java:209)
+  [42] javax.servlet.http.HttpServlet.service (HttpServlet.java:754)
+  [43] org.jboss.wsf.stack.cxf.CXFServletExt.service (CXFServletExt.java:136)
+  [44] org.jboss.wsf.spi.deployment.WSFServlet.service (WSFServlet.java:140)
+  [45] javax.servlet.http.HttpServlet.service (HttpServlet.java:847)
+  [46] org.apache.catalina.core.ApplicationFilterChain.internalDoFilter (ApplicationFilterChain.java:295)
+  [47] org.apache.catalina.core.ApplicationFilterChain.doFilter (ApplicationFilterChain.java:214)
+  [48] org.apache.catalina.core.StandardWrapperValve.invoke (StandardWrapperValve.java:231)
+  [49] org.apache.catalina.core.StandardContextValve.invoke (StandardContextValve.java:149)
+  [50] org.apache.catalina.authenticator.AuthenticatorBase.invoke (AuthenticatorBase.java:512)
+  [51] org.jboss.as.web.security.SecurityContextAssociationValve.invoke (SecurityContextAssociationValve.java:169)
+  [52] org.apache.catalina.core.StandardHostValve.invoke (StandardHostValve.java:150)
+  [53] org.apache.catalina.valves.ErrorReportValve.invoke (ErrorReportValve.java:97)
+  [54] org.apache.catalina.core.StandardEngineValve.invoke (StandardEngineValve.java:102)
+  [55] org.apache.catalina.connector.CoyoteAdapter.service (CoyoteAdapter.java:344)
+  [56] org.apache.coyote.http11.Http11Processor.process (Http11Processor.java:854)
+  [57] org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process (Http11Protocol.java:654)
+  [58] org.apache.tomcat.util.net.JIoEndpoint$Worker.run (JIoEndpoint.java:926)
+  [59] java.lang.Thread.run (Thread.java:745)
+
+2016/06/24 21:44:25 ViewFileCommandExecutor.handle_prompt: output =   [1] org.jboss.samples.webservices.HelloWorld.sayHello (HelloWorld.java:15)
+  [2] sun.reflect.NativeMethodAccessorImpl.invoke0 (native method)
+  [3] sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+  [4] sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+  [5] java.lang.reflect.Method.invoke (Method.java:497)
+  [6] org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation (ManagedReferenceMethodInterceptor.java:52)
+  [7] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [8] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)
+  [9] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)
+  [10] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [11] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)
+  [12] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)
+  [13] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [14] org.jboss.invocation.InitialInterceptor.processInvocation (InitialInterceptor.java:21)
+  [15] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [16] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [17] org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation (ComponentDispatcherInterceptor.java:53)
+  [18] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [19] org.jboss.as.webservices.deployers.WSComponentInstanceAssociationInterceptor.processInvocation (WSComponentInstanceAssociationInterceptor.java:49)
+  [20] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [21] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [22] org.jboss.as.ee.component.ViewService$View.invoke (ViewService.java:185)
+  [23] org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke (AbstractInvocationHandler.java:129)
+  [24] org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation (JBossWSInvoker.java:177)
+  [25] org.apache.cxf.service.invoker.AbstractInvoker.invoke (AbstractInvoker.java:104)
+  [26] org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke (AbstractJAXWSMethodInvoker.java:237)
+  [27] org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke (JAXWSMethodInvoker.java:69)
+  [28] org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke (JBossWSInvoker.java:146)
+  [29] org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run (ServiceInvokerInterceptor.java:58)
+  [30] java.util.concurrent.Executors$RunnableAdapter.call (Executors.java:511)
+  [31] java.util.concurrent.FutureTask.run (FutureTask.java:266)
+  [32] org.apache.cxf.workqueue.SynchronousExecutor.execute (SynchronousExecutor.java:37)
+  [33] org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage (ServiceInvokerInterceptor.java:107)
+  [34] org.apache.cxf.phase.PhaseInterceptorChain.doIntercept (PhaseInterceptorChain.java:272)
+  [35] org.apache.cxf.transport.ChainInitiationObserver.onMessage (ChainInitiationObserver.java:121)
+  [36] org.apache.cxf.transport.http.AbstractHTTPDestination.invoke (AbstractHTTPDestination.java:249)
+  [37] org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest (RequestHandlerImpl.java:97)
+  [38] org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler (ServletHelper.java:131)
+  [39] org.jboss.wsf.stack.cxf.CXFServletExt.invoke (CXFServletExt.java:88)
+  [40] org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest (AbstractHTTPServlet.java:289)
+  [41] org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost (AbstractHTTPServlet.java:209)
+  [42] javax.servlet.http.HttpServlet.service (HttpServlet.java:754)
+  [43] org.jboss.wsf.stack.cxf.CXFServletExt.service (CXFServletExt.java:136)
+  [44] org.jboss.wsf.spi.deployment.WSFServlet.service (WSFServlet.java:140)
+  [45] javax.servlet.http.HttpServlet.service (HttpServlet.java:847)
+  [46] org.apache.catalina.core.ApplicationFilterChain.internalDoFilter (ApplicationFilterChain.java:295)
+  [47] org.apache.catalina.core.ApplicationFilterChain.doFilter (ApplicationFilterChain.java:214)
+  [48] org.apache.catalina.core.StandardWrapperValve.invoke (StandardWrapperValve.java:231)
+  [49] org.apache.catalina.core.StandardContextValve.invoke (StandardContextValve.java:149)
+  [50] org.apache.catalina.authenticator.AuthenticatorBase.invoke (AuthenticatorBase.java:512)
+  [51] org.jboss.as.web.security.SecurityContextAssociationValve.invoke (SecurityContextAssociationValve.java:169)
+  [52] org.apache.catalina.core.StandardHostValve.invoke (StandardHostValve.java:150)
+  [53] org.apache.catalina.valves.ErrorReportValve.invoke (ErrorReportValve.java:97)
+  [54] org.apache.catalina.core.StandardEngineValve.invoke (StandardEngineValve.java:102)
+  [55] org.apache.catalina.connector.CoyoteAdapter.service (CoyoteAdapter.java:344)
+  [56] org.apache.coyote.http11.Http11Processor.process (Http11Processor.java:854)
+  [57] org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process (Http11Protocol.java:654)
+  [58] org.apache.tomcat.util.net.JIoEndpoint$Worker.run (JIoEndpoint.java:926)
+  [59] java.lang.Thread.run (Thread.java:745)
+
+2016/06/24 21:44:25 ConditionalBreakpointExecutor.get_breakpoint_location_at_line: output =   [1] org.jboss.samples.webservices.HelloWorld.sayHello (HelloWorld.java:15)
+  [2] sun.reflect.NativeMethodAccessorImpl.invoke0 (native method)
+  [3] sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+  [4] sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+  [5] java.lang.reflect.Method.invoke (Method.java:497)
+  [6] org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation (ManagedReferenceMethodInterceptor.java:52)
+  [7] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [8] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)
+  [9] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)
+  [10] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [11] org.jboss.invocation.WeavedInterceptor.processInvocation (WeavedInterceptor.java:53)
+  [12] org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation (UserInterceptorFactory.java:63)
+  [13] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [14] org.jboss.invocation.InitialInterceptor.processInvocation (InitialInterceptor.java:21)
+  [15] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [16] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [17] org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation (ComponentDispatcherInterceptor.java:53)
+  [18] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [19] org.jboss.as.webservices.deployers.WSComponentInstanceAssociationInterceptor.processInvocation (WSComponentInstanceAssociationInterceptor.java:49)
+  [20] org.jboss.invocation.InterceptorContext.proceed (InterceptorContext.java:288)
+  [21] org.jboss.invocation.ChainedInterceptor.processInvocation (ChainedInterceptor.java:61)
+  [22] org.jboss.as.ee.component.ViewService$View.invoke (ViewService.java:185)
+  [23] org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke (AbstractInvocationHandler.java:129)
+  [24] org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation (JBossWSInvoker.java:177)
+  [25] org.apache.cxf.service.invoker.AbstractInvoker.invoke (AbstractInvoker.java:104)
+  [26] org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke (AbstractJAXWSMethodInvoker.java:237)
+  [27] org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke (JAXWSMethodInvoker.java:69)
+  [28] org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke (JBossWSInvoker.java:146)
+  [29] org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run (ServiceInvokerInterceptor.java:58)
+  [30] java.util.concurrent.Executors$RunnableAdapter.call (Executors.java:511)
+  [31] java.util.concurrent.FutureTask.run (FutureTask.java:266)
+  [32] org.apache.cxf.workqueue.SynchronousExecutor.execute (SynchronousExecutor.java:37)
+  [33] org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage (ServiceInvokerInterceptor.java:107)
+  [34] org.apache.cxf.phase.PhaseInterceptorChain.doIntercept (PhaseInterceptorChain.java:272)
+  [35] org.apache.cxf.transport.ChainInitiationObserver.onMessage (ChainInitiationObserver.java:121)
+  [36] org.apache.cxf.transport.http.AbstractHTTPDestination.invoke (AbstractHTTPDestination.java:249)
+  [37] org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest (RequestHandlerImpl.java:97)
+  [38] org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler (ServletHelper.java:131)
+  [39] org.jboss.wsf.stack.cxf.CXFServletExt.invoke (CXFServletExt.java:88)
+  [40] org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest (AbstractHTTPServlet.java:289)
+  [41] org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost (AbstractHTTPServlet.java:209)
+  [42] javax.servlet.http.HttpServlet.service (HttpServlet.java:754)
+  [43] org.jboss.wsf.stack.cxf.CXFServletExt.service (CXFServletExt.java:136)
+  [44] org.jboss.wsf.spi.deployment.WSFServlet.service (WSFServlet.java:140)
+  [45] javax.servlet.http.HttpServlet.service (HttpServlet.java:847)
+  [46] org.apache.catalina.core.ApplicationFilterChain.internalDoFilter (ApplicationFilterChain.java:295)
+  [47] org.apache.catalina.core.ApplicationFilterChain.doFilter (ApplicationFilterChain.java:214)
+  [48] org.apache.catalina.core.StandardWrapperValve.invoke (StandardWrapperValve.java:231)
+  [49] org.apache.catalina.core.StandardContextValve.invoke (StandardContextValve.java:149)
+  [50] org.apache.catalina.authenticator.AuthenticatorBase.invoke (AuthenticatorBase.java:512)
+  [51] org.jboss.as.web.security.SecurityContextAssociationValve.invoke (SecurityContextAssociationValve.java:169)
+  [52] org.apache.catalina.core.StandardHostValve.invoke (StandardHostValve.java:150)
+  [53] org.apache.catalina.valves.ErrorReportValve.invoke (ErrorReportValve.java:97)
+  [54] org.apache.catalina.core.StandardEngineValve.invoke (StandardEngineValve.java:102)
+  [55] org.apache.catalina.connector.CoyoteAdapter.service (CoyoteAdapter.java:344)
+  [56] org.apache.coyote.http11.Http11Processor.process (Http11Processor.java:854)
+  [57] org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process (Http11Protocol.java:654)
+  [58] org.apache.tomcat.util.net.JIoEndpoint$Worker.run (JIoEndpoint.java:926)
+  [59] java.lang.Thread.run (Thread.java:745)
+
+2016/06/24 22:01:16 logit: HISTORY    'c'
+2016/06/24 22:01:16 logit: INPUT      'c'
+2016/06/24 22:01:16 logit: OUTPUT     'cont\r\n'
+2016/06/24 22:01:16 EnhancedClearCommandExecutor.handle_output: output = 
+2016/06/24 22:01:16 logit: OUTPUT     '> '
+2016/06/24 22:01:16 EnhancedClearCommandExecutor.handle_output: output = > 
+2016/06/24 22:01:16 logit: PROMPT     '> '
+2016/06/24 22:01:16 prompt_handler: prompt=|> |
+2016/06/24 22:01:16 EnhancedClearCommandExecutor.handle_prompt: output = 
+2016/06/24 22:01:16 ViewFileCommandExecutor.handle_prompt: output = 
+2016/06/24 22:01:16 ConditionalBreakpointExecutor.get_breakpoint_location_at_line: output = 
+2016/06/24 23:24:03 logit: OUTPUT     'Input stream closed.\r\n'
+2016/06/24 23:24:03 EnhancedClearCommandExecutor.handle_output: output = Input stream closed.
+
+2016/06/24 23:24:03 logit: PROMPT     ''

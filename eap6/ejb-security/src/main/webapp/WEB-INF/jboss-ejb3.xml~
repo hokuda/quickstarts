@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jbossejbjar xmlns:jboss="http://www.jboss.com/xml/ns/javaee"
+xmlns="http://java.sun.com/xml/ns/javaee"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xmlns:c="urn:clustering:1.0"
+               xsi:schemaLocation="http://www.jboss.com/xml/ns/javaee http://www.jboss.org/j2ee/schema/jboss-ejb3-2_0.xsd http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/ejb-jar_3_1.xsd"
+               version="3.1"
+               impl-version="2.0">
+<jee:assembly-descriptor>
+        <ci:container-interceptors>
+<jee:interceptor-binding>
+                <ejb-name>SecuredEJB</ejb-name>
+                <interceptor-class>org.jboss.as.quickstarts.ejb_security_interceptors.ServerSecurityInterceptor</interceptor-class>
+            </jee:interceptor-binding>
+        </ci:container-interceptors>
+    </jee:assembly-descriptor>
+</jboss:ejb-jar>

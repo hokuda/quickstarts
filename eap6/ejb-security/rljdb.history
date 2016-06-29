@@ -1,0 +1,9 @@
+stop in org.jboss.as.quickstarts.ejb_security.TestInterceptor.aroundInvoke(javax.interceptor.InvocationContext) 
+w
+c
+stop in org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String) 
+w
+c
+stop in org.jboss.samples.webservices.HelloWorld.sayHello(java.lang.String) 
+w
+c

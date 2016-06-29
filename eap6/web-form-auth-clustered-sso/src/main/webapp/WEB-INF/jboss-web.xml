@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web>
+    <security-domain>other</security-domain>
+    <valve>
+        <class-name>org.jboss.as.web.sso.ClusteredSingleSignOn</class-name>
+        <param>
+            <param-name>maxEmptyLife</param-name>
+            <param-value>900</param-value>
+        </param>
+    </valve>
+</jboss-web>

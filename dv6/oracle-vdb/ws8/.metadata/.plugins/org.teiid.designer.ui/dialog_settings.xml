@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.teiid.designer.jdbc.ui.wizards.JdbcImportWizard">
+		<item value="false" key=""/>
+		<item value="812" key="width"/>
+		<item value="UNQUALIFIED" key="&lt;Missing message for key &quot;JdbcImportOptionsPage.sourceObjectNamesGroup&quot; in: org.teiid.designer.ui.i18n&gt;"/>
+		<item value="true" key="Include Incomplete FKs"/>
+		<item value="false" key="Approximations Allowed"/>
+		<item value="false" key="Include Cost Statistics (will increase time for large imports)"/>
+		<item value="NONE" key="&lt;Missing message for key &quot;JdbcImportOptionsPage.modelObjectNamesGroup&quot; in: org.teiid.designer.ui.i18n&gt;"/>
+		<item value="false" key="schema"/>
+		<item value="true" key="Foreign Keys"/>
+		<item value="false" key="Indexes"/>
+		<item value="false" key="Procedures"/>
+		<item value="783" key="height"/>
+		<item value="false" key="Unique Only"/>
+		<list key="Table Types">
+			<item value="SYNONYM"/>
+			<item value="TABLE"/>
+			<item value="VIEW"/>
+		</list>
+	</section>
+	<section name="org.teiid.designer.vdb.ui.wizards.NewVdbWizard">
+	</section>
+</section>

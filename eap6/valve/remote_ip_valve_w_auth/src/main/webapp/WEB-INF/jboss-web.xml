@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web>
+  <security-domain>simple</security-domain>
+  <valve>
+    <class-name>sample.RestrictIpAddrValve</class-name>
+    <param>
+      <param-name>addr</param-name>
+      <param-value>127.0.0.1</param-value>
+    </param>
+  </valve>
+</jboss-web>
+​

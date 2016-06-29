@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://www.metamatrix.com/metamodels/Diagram" xmlns:jdbc="http://www.metamatrix.com/metamodels/JDBC" xmlns:mmcore="http://www.metamatrix.com/metamodels/Core" xmlns:relational="http://www.metamatrix.com/metamodels/Relational">
+  <mmcore:ModelAnnotation xmi:uuid="mmuuid:d6314426-be0d-437e-9f8d-6fc4f7c627f6" primaryMetamodelUri="http://www.metamatrix.com/metamodels/Relational" modelType="PHYSICAL" maxSetSize="1000" ProducerName="Teiid Designer" ProducerVersion="9.0.1.Final-v20150211-1407-B643">
+    <modelImports xmi:uuid="mmuuid:206307ea-8a81-4233-aff1-107ea3730872" name="XMLSchema" modelLocation="http://www.w3.org/2001/XMLSchema" modelType="TYPE" primaryMetamodelUri="http://www.eclipse.org/xsd/2002/XSD"/>
+    <modelImports xmi:uuid="mmuuid:2f0cbece-faed-44aa-8f4d-5673e13400f5" name="SimpleDatatypes-instance" modelLocation="http://www.metamatrix.com/metamodels/SimpleDatatypes-instance" modelType="TYPE" primaryMetamodelUri="http://www.eclipse.org/xsd/2002/XSD"/>
+  </mmcore:ModelAnnotation>
+  <relational:BaseTable xmi:uuid="mmuuid:bf811b55-61b8-422a-b4f3-1b1f0192d081" name="DEPT" nameInSource="&quot;SCOTT&quot;.&quot;DEPT&quot;">
+    <columns xmi:uuid="mmuuid:45b0778f-9b7e-41bb-8f7b-0e03cadafd86" name="DEPTNO" nameInSource="&quot;DEPTNO&quot;" nativeType="NUMBER" fixedLength="true" precision="2" nullable="NO_NULLS" caseSensitive="false" searchability="ALL_EXCEPT_LIKE" uniqueKeys="mmuuid/f8b47e36-2d78-47e1-ae45-c5d530ccde05">
+      <type href="http://www.metamatrix.com/metamodels/SimpleDatatypes-instance#bigdecimal"/>
+    </columns>
+    <columns xmi:uuid="mmuuid:e48c8fd2-c24e-40f8-968e-bd7a343a9e8e" name="DNAME" nameInSource="&quot;DNAME&quot;" nativeType="VARCHAR2" length="14">
+      <type href="http://www.w3.org/2001/XMLSchema#string"/>
+    </columns>
+    <columns xmi:uuid="mmuuid:6433de26-f190-49ae-b2b6-7370b26b4403" name="LOC" nameInSource="&quot;LOC&quot;" nativeType="VARCHAR2" length="13">
+      <type href="http://www.w3.org/2001/XMLSchema#string"/>
+    </columns>
+    <primaryKey xmi:uuid="mmuuid:f8b47e36-2d78-47e1-ae45-c5d530ccde05" name="PK_DEPT" nameInSource="&quot;PK_DEPT&quot;" columns="mmuuid/45b0778f-9b7e-41bb-8f7b-0e03cadafd86"/>
+  </relational:BaseTable>
+  <mmcore:AnnotationContainer xmi:uuid="mmuuid:c567ab76-7a2b-42c6-a82a-814a146e7751">
+    <annotations xmi:uuid="mmuuid:8d692d53-72b3-4a8b-95f5-70f6e7f5c65a" annotatedObject="mmuuid/d6314426-be0d-437e-9f8d-6fc4f7c627f6">
+      <tags xmi:uuid="mmuuid:b64d5d3c-0151-4072-96e7-fc28b5b50702" key="connection:driver-class" value="oracle.jdbc.OracleDriver"/>
+      <tags xmi:uuid="mmuuid:7dc4aaf5-3560-4dd2-9a6f-52eabc41b1e5" key="connectionProfile:connectionProfileName" value="oracle"/>
+      <tags xmi:uuid="mmuuid:3f9d4126-f10f-4ef5-b776-fc353cb11a19" key="connection:jarList" value="/export/share/Oracle11g/ojdbc6_g.jar"/>
+      <tags xmi:uuid="mmuuid:01233901-6017-4e0e-a5c1-4dcd5db7cfab" key="connectionProfile:connectionProfileProviderId" value="org.eclipse.datatools.enablement.oracle.connectionProfile"/>
+      <tags xmi:uuid="mmuuid:f4697916-1429-49b8-b4fe-4d47a4e8576b" key="translator:name" value="oracle"/>
+      <tags xmi:uuid="mmuuid:cb7b3fac-4f7c-4f6e-806d-3df926dd271c" key="connection:connection-url" value="jdbc:oracle:thin:@rhel6:1521:ORCL"/>
+      <tags xmi:uuid="mmuuid:ef9da5a4-de81-44df-bd0b-93de183d7568" key="connectionProfile:connectionProfileInstanceID" value="c9734af1-a2fd-11e5-adff-887cbfb90660"/>
+      <tags xmi:uuid="mmuuid:c8fde08a-48ea-4cf7-a795-ba95911e490b" key="connection:connectionProfileInstanceID" value="org.eclipse.datatools.enablement.oracle.connectionProfile"/>
+      <tags xmi:uuid="mmuuid:eb28e673-c7cb-4e8d-82c2-e25c7f96753c" key="connectionProfile:connectionProfileDescription" value=""/>
+      <tags xmi:uuid="mmuuid:5444f2d8-3479-4945-82e9-143406af9480" key="connection:user-name" value="scott"/>
+      <tags xmi:uuid="mmuuid:4b1182d9-3f94-427d-b663-cefb7d2fba72" key="connectionProfile:connectionProfileCategory" value="org.eclipse.datatools.connectivity.db.category"/>
+    </annotations>
+  </mmcore:AnnotationContainer>
+  <diagram:DiagramContainer xmi:uuid="mmuuid:700b4167-4ed4-4425-af79-14b5053ed930"/>
+  <jdbc:JdbcSource xmi:uuid="mmuuid:13f56970-a41d-4ebb-9acc-e2267448710a" name="oracle" driverName="Oracle Thin Driver" driverClass="oracle.jdbc.OracleDriver" username="scott" url="jdbc:oracle:thin:@rhel6:1521:ORCL">
+    <importSettings xmi:uuid="mmuuid:ec9bcef0-0209-4c57-a7a9-759518091a2d" createCatalogsInModel="false" createSchemasInModel="false" includeIndexes="false" includeApproximateIndexes="false">
+      <includedSchemaPaths>/SCOTT</includedSchemaPaths>
+      <excludedObjectPaths>/SCOTT/TABLE/BONUS</excludedObjectPaths>
+      <excludedObjectPaths>/SCOTT/TABLE/EMP</excludedObjectPaths>
+      <excludedObjectPaths>/SCOTT/TABLE/SALGRADE</excludedObjectPaths>
+      <includedTableTypes>SYNONYM</includedTableTypes>
+      <includedTableTypes>TABLE</includedTableTypes>
+      <includedTableTypes>VIEW</includedTableTypes>
+    </importSettings>
+  </jdbc:JdbcSource>
+</xmi:XMI>

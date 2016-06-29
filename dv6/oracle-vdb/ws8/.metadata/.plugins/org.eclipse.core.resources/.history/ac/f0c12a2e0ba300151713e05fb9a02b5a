@@ -1,0 +1,11 @@
+// 1) Enter valid SQL query (i.e. SELECT * FROM FOO)
+// 2) Highlight query and right-click select "Execute Selected Text"
+
+SELECT * FROM <table-name>
+
+
+with eee as (select * from emp.EMP)
+select * from dept where dept.deptno in (select deptno from eee)
+
+with eee as (select * from emp.EMP)
+select * from eee

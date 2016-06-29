@@ -1,0 +1,5 @@
+/subsystem=security/security-domain=simple:add(cache-type=default)
+/subsystem=security/security-domain=simple/authentication=classic:add(login-modules=[{"code"=>"Simple","flag"=>"required"}])
+/core-service=management/security-realm=simple:add()
+/core-service=management/security-realm=simple/authentication=jaas:add(name=simple)
+/subsystem=remoting/connector=remoting-connector:write-attribute(name=security-realm, value=simple)

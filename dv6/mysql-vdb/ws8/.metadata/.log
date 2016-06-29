@@ -1,0 +1,13 @@
+!SESSION 2015-12-14 14:26:55.970 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product com.jboss.devstudio.core.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product com.jboss.devstudio.core.product
+
+!ENTRY org.teiid.designer.jdbc 4 3 2015-12-14 14:34:12.723
+!MESSAGE Unable to select any database object(s) that match root
+
+!ENTRY org.teiid.designer.jdbc 4 3 2015-12-14 14:34:59.180
+!MESSAGE Unable to select any database object(s) that match root

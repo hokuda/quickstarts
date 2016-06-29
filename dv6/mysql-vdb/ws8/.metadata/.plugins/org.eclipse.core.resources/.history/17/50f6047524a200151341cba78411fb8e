@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:diagram="http://www.metamatrix.com/metamodels/Diagram" xmlns:jdbc="http://www.metamatrix.com/metamodels/JDBC" xmlns:mmcore="http://www.metamatrix.com/metamodels/Core" xmlns:relational="http://www.metamatrix.com/metamodels/Relational">
+  <mmcore:ModelAnnotation xmi:uuid="mmuuid:59f11f06-4ac8-4c1f-abd4-f08ce85f04a1" primaryMetamodelUri="http://www.metamatrix.com/metamodels/Relational" modelType="PHYSICAL" ProducerName="Teiid Designer" ProducerVersion="9.0.1.Final-v20150211-1407-B643">
+    <modelImports xmi:uuid="mmuuid:43a37e9a-999a-4147-8ea2-81ca515a33c0" name="XMLSchema" modelLocation="http://www.w3.org/2001/XMLSchema" modelType="TYPE" primaryMetamodelUri="http://www.eclipse.org/xsd/2002/XSD"/>
+  </mmcore:ModelAnnotation>
+  <relational:BaseTable xmi:uuid="mmuuid:f1fb2083-1ae0-4ee3-be61-9d1f47e1c03e" name="ROLES" nameInSource="`LOGIN`.`ROLES`">
+    <columns xmi:uuid="mmuuid:d6de6e80-b273-4f3d-88b4-4fb5696537f2" name="USERNAME" nameInSource="`USERNAME`" nativeType="VARCHAR" length="16" nullable="NO_NULLS" foreignKeys="mmuuid/ed0d4fda-6e2d-4dda-833d-6982b72a7fc0">
+      <type href="http://www.w3.org/2001/XMLSchema#string"/>
+    </columns>
+    <columns xmi:uuid="mmuuid:901f5396-5e7e-445d-af67-d70407516f85" name="USERROLE" nameInSource="`USERROLE`" nativeType="VARCHAR" length="16">
+      <type href="http://www.w3.org/2001/XMLSchema#string"/>
+    </columns>
+    <foreignKeys xmi:uuid="mmuuid:ed0d4fda-6e2d-4dda-833d-6982b72a7fc0" name="ROLES_ibfk_1" nameInSource="`ROLES_ibfk_1`" foreignKeyMultiplicity="UNSPECIFIED" primaryKeyMultiplicity="UNSPECIFIED" columns="mmuuid/d6de6e80-b273-4f3d-88b4-4fb5696537f2">
+      <uniqueKey xsi:nil="true"/>
+    </foreignKeys>
+  </relational:BaseTable>
+  <mmcore:AnnotationContainer xmi:uuid="mmuuid:decc72b3-1fa2-4c0d-a791-e06511667346">
+    <annotations xmi:uuid="mmuuid:9e06c71c-5d27-4ed6-a512-a48d45e8a706" annotatedObject="mmuuid/59f11f06-4ac8-4c1f-abd4-f08ce85f04a1">
+      <tags xmi:uuid="mmuuid:a488e841-52df-4ee1-ba2a-0685dd3542f2" key="connection:driver-class" value="com.mysql.jdbc.Driver"/>
+      <tags xmi:uuid="mmuuid:110c1600-dfbd-456c-b755-30cf120b6c38" key="connectionProfile:connectionProfileName" value="MySQL"/>
+      <tags xmi:uuid="mmuuid:a9a4b275-6c60-45c5-b0e2-1f23dd1c05c2" key="connection:jarList" value="/export/share/mysql-connector-java-5.1.22/mysql-connector-java-5.1.22-bin.jar"/>
+      <tags xmi:uuid="mmuuid:d5104ceb-1dcc-4fbf-8e2b-8354d9c5be8b" key="connectionProfile:connectionProfileProviderId" value="org.eclipse.datatools.enablement.mysql.connectionProfile"/>
+      <tags xmi:uuid="mmuuid:04d493f5-86b8-486e-9f1b-e68451457ba6" key="translator:name" value="mysql5"/>
+      <tags xmi:uuid="mmuuid:97cc61f5-016b-42c0-962f-d7aff853f9e2" key="connection:connection-url" value="jdbc:mysql://localhost:3306/LOGIN"/>
+      <tags xmi:uuid="mmuuid:32e8391f-6a4f-4ca5-98f1-da3a271d9134" key="connectionProfile:connectionProfileInstanceID" value="4d4b6fe0-a224-11e5-af5c-8aa367063da8"/>
+      <tags xmi:uuid="mmuuid:360d77eb-5b2d-4363-b81b-f94d1670cd82" key="connection:connectionProfileInstanceID" value="org.eclipse.datatools.enablement.mysql.connectionProfile"/>
+      <tags xmi:uuid="mmuuid:0291a674-69f6-4acd-a37d-c7eaee6358c8" key="connectionProfile:connectionProfileDescription" value=""/>
+      <tags xmi:uuid="mmuuid:1a6866a4-5b3c-4b71-900a-7bbc4fdae804" key="connection:user-name" value="root"/>
+      <tags xmi:uuid="mmuuid:e3eec563-961f-4e8f-8697-f773076546c8" key="connectionProfile:connectionProfileCategory" value="org.eclipse.datatools.connectivity.db.category"/>
+    </annotations>
+  </mmcore:AnnotationContainer>
+  <diagram:DiagramContainer xmi:uuid="mmuuid:806a0dcb-d6e8-4bb8-b3a7-011d98cd2e44"/>
+  <jdbc:JdbcSource xmi:uuid="mmuuid:b2ea8727-99aa-41c2-9a63-6d39e2414638" name="MySQL" driverName="MySQL JDBC Driver" driverClass="com.mysql.jdbc.Driver" username="root" url="jdbc:mysql://localhost:3306/LOGIN">
+    <importSettings xmi:uuid="mmuuid:af3bd497-b496-4199-b988-46280c21bd25" createSchemasInModel="false" includeIndexes="false" includeApproximateIndexes="false">
+      <includedCatalogPaths>/LOGIN</includedCatalogPaths>
+      <excludedObjectPaths>/LOGIN/TABLE/TEST</excludedObjectPaths>
+      <excludedObjectPaths>/LOGIN/TABLE/USERS</excludedObjectPaths>
+      <excludedObjectPaths>/LOGIN/TABLE/USERS2</excludedObjectPaths>
+      <includedTableTypes>TABLE</includedTableTypes>
+      <includedTableTypes>VIEW</includedTableTypes>
+      <includedTableTypes>LOCAL TEMPORARY</includedTableTypes>
+    </importSettings>
+  </jdbc:JdbcSource>
+</xmi:XMI>
