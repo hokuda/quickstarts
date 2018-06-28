@@ -1,0 +1,5 @@
+#!/bin/sh
+
+export CLASSPATH=.
+#java -cp . -Dhttps.protocols=TLSv1 -Djavax.net.debug=all SimpleHttpsClient localhost 8443
+$JAVA_HOME/bin/java -cp . -Djavax.net.debug=all SimpleHttpsClient localhost 8443

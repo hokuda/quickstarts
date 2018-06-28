@@ -1,0 +1,3 @@
+$ mvn clean install
+$ $JBOSS_HOME/bin/jboss-cli.sh -c
+[standalone@localhost:9990 /] module add --name=sample.vault --slot=main --resources=target/sample-vault.jar --dependencies=org.picketbox,sun.jdk

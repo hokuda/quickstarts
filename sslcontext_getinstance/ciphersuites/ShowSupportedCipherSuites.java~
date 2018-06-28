@@ -1,0 +1,10 @@
+public class ShowSupportedCipherSuites {
+    public static void main(String[] args) throws Exception {
+        
+        SSLContext context = SSLContext.getInstance("TLSv1.2");
+        SSLParameters params = context.getSupportedSSLParameters();
+
+        System.out.print(params.getCipherSuites());
+        
+    }
+}

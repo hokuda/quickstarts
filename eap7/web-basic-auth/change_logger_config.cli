@@ -1,0 +1,2 @@
+/subsystem=logging/logger=org.jboss.security:add(level=TRACE)
+/subsystem=logging/console-handler=CONSOLE:change-log-level(level=TRACE)

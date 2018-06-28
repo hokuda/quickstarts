@@ -1,0 +1,52 @@
+package sample;
+
+import java.util.*;
+
+public class Vault implements org.jboss.security.vault.SecurityVault
+{
+    void init(Map<String,Object> options) throws SecurityVaultException { /* do nothing */ }
+   
+    boolean isInitialized() { return true; }
+
+    byte[] handshake(Map<String,Object> handshakeOptions) throws SecurityVaultException
+    { return "fake".getBytes("UTF-8"); }
+   
+   Set<String> keyList() throws SecurityVaultException
+   {
+       return java.util.HashSet(java.util.Arrays.asList({"fake"}));
+   }
+
+   boolean exists(String vaultBlock, String attributeName) throws SecurityVaultException { return true; }
+   
+   /**
+    * Store an attribute value
+    * @param vaultBlock a string value that brings in the uniqueness
+    * @param attributeName name of the attribute
+    * @param attributeValue
+    * @param sharedKey
+    * @throws SecurityVaultException
+    */
+   void store(String vaultBlock, String attributeName,char[] attributeValue, byte[] sharedKey) throws SecurityVaultException
+    { /* do nothing */ }
+
+   /**
+    * Retrieve the attribute value
+    * @param vaultBlock
+    * @param attributeName
+    * @param sharedKey
+    * @return
+    * @throws SecurityVaultException
+    */
+   char[] retrieve(String vaultBlock, String attributeName, byte[] sharedKey) throws SecurityVaultException;
+   
+   /**
+    * Remove an existing attribute value
+    * @param vaultBlock
+    * @param attributeName
+    * @param sharedKey
+    * @return true if remove was successful, false otherwise
+    * @throws SecurityVaultException
+    * @since v4.0.4.final
+    */
+   boolean remove(String vaultBlock, String attributeName, byte[] sharedKey) throws SecurityVaultException;
+}

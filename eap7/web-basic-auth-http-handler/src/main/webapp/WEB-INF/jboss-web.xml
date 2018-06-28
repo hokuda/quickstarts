@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web>
+    <security-domain>simple</security-domain>
+<!--
+-->
+    <http-handler>
+        <class-name>sample.MyHandler</class-name>
+    </http-handler>
+</jboss-web>

@@ -1,0 +1,4 @@
+/core-service=management/security-realm=sslrealm:add()                   
+/core-service=management/security-realm=sslrealm/server-identity=ssl:add(keystore-path=server.jks, keystore-relative-to=jboss.server.config.dir, keystore-password=password)
+
+/subsystem=undertow/server=default-server/https-listener=https:add(secure=true, socket-binding=https, security-realm=sslrealm)
