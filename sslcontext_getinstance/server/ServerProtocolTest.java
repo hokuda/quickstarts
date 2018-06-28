@@ -16,11 +16,12 @@ public class ServerProtocolTest {
     
     public static void main(String[] args) throws Exception {
         
-        System.setProperty("javax.net.ssl.keyStore", "./keystore");
+	String keystore = "./localhost-sha256rsa.jks";
+        System.setProperty("javax.net.ssl.keyStore", keystore);
         System.setProperty("javax.net.ssl.keyStorePassword", "password");
         KeyStore tKeyStore = KeyStore.getInstance("JKS");
         char[] tKeyStorePassword = "password".toCharArray();
-        tKeyStore.load(new FileInputStream("./keystore"), tKeyStorePassword);
+        tKeyStore.load(new FileInputStream(keystore), tKeyStorePassword);
         KeyManagerFactory kmfactory = KeyManagerFactory.getInstance("SunX509");
         kmfactory.init(tKeyStore, tKeyStorePassword);
         //SSLContext sslcontext = SSLContext.getInstance("TLSv1.2", "SunJSSE");

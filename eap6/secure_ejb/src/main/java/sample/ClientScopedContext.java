@@ -35,7 +35,7 @@ public class ClientScopedContext {
         prop.put("remote.connection.1.connect.options.org.xnio.Options.SASL_POLICY_NOANONYMOUS", "false");
         prop.put("remote.connection.1.connect.options.org.xnio.Options.SASL_POLICY_NOPLAINTEXT", "false");
         prop.put("remote.connection.1.username", "guest");
-        prop.put("remote.connection.1.password", "guest");
+        prop.put("remote.connection.1.password", "guestx");
         //prop.put("remote.connection.1.username", "user1");
         //prop.put("remote.connection.1.password", "password");
         

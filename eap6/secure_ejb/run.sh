@@ -1,7 +1,8 @@
 #!/bin/sh
 
 # change JBOSS_HOME for your setup
-JBOSS_HOME=/home/opt/eap64x
+#JBOSS_HOME=/home/opt/eap64x
+JBOSS_HOME=/home/eap64x
 
 export CLASSPATH=target/ejb.jar:$JBOSS_HOME/bin/client/jboss-client.jar
 
