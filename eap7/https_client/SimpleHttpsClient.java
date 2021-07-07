@@ -19,9 +19,13 @@ import javax.net.ssl.SSLSocket;
 public class SimpleHttpsClient{
     public static void main(String[]args){
         SimpleHttpsClient client = new SimpleHttpsClient();
+        /*
         String host = args[0];
         int port = new Integer(args[1]).intValue();
         client.connect(host, port);
+        */
+        String url = args[0];
+        client.doit(url);
     }
 
     public void connect(String host, int port) {

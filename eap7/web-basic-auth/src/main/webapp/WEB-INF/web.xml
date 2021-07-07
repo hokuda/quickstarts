@@ -30,7 +30,7 @@
     </auth-constraint>
   </security-constraint>
   <login-config>
-    <auth-method>FORM</auth-method>
+    <auth-method>BASIC</auth-method>
     <realm-name>test</realm-name>
     <form-login-config>
       <form-login-page>/login.html</form-login-page>

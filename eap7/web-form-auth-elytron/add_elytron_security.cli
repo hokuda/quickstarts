@@ -1,0 +1,19 @@
+# reference : https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.3/html-single/how_to_configure_identity_management/index
+
+# Configure a filesystem-realm in JBoss EAP:
+/subsystem=elytron/filesystem-realm=exampleFilesystemRealm:add(path=filesystem-realm-users,relative-to=jboss.server.config.dir)
+
+# Add a user:
+/subsystem=elytron/filesystem-realm=exampleFilesystemRealm:add-identity(identity=user1)
+/subsystem=elytron/filesystem-realm=exampleFilesystemRealm:set-password(identity=user1, clear={password="password123"})
+/subsystem=elytron/filesystem-realm=exampleFilesystemRealm:add-identity-attribute(identity=user1, name=Roles, value=["Admin","Guest"])
+
+# Add a simple-role-decoder:
+/subsystem=elytron/simple-role-decoder=from-roles-attribute:add(attribute=Roles)
+
+# Configure a security-domain:
+/subsystem=elytron/security-domain=exampleFilesystemSecurityDomain:add(realms=[{realm=exampleFilesystemRealm,role-decoder=from-roles-attribute}],default-realm=exampleFilesystemRealm,permission-mapper=default-permission-mapper)
+
+# Configure an application-security-domain in the undertow subsystem:
+/subsystem=undertow/application-security-domain=exampleApplicationDomain:add(security-domain=exampleFilesystemSecurityDomain)
+

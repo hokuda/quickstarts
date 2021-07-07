@@ -1,0 +1,2 @@
+/subsystem=security/security-domain=simple:add()
+/subsystem=security/security-domain=simple/authentication=classic:add(login-modules=[{"code"=>"Simple","flag"=>"required"}])

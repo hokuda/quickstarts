@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web>
+<disable-audit>false</disable-audit>
+    <security-domain>exampleApplicationDomain</security-domain>
+<!--
+-->
+<!--
+    <http-handler>
+        <class-name>sample.MyHandler</class-name>
+    </http-handler>
+-->
+</jboss-web>
