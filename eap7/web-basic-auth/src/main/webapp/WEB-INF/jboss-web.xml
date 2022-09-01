@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jboss-web>
 <!--
--->
     <security-domain>simple</security-domain>
+-->
+    <security-domain>exampleLdapSD</security-domain>
 </jboss-web>
